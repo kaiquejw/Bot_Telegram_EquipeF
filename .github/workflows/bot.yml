@@ -36,9 +36,8 @@ jobs:
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SESSION_KAIQUE: ${{ secrets.SESSION_KAIQUE }} 
-          SESSION_JENNIFFER: ${{ secrets.SESSION_JENNIFFER }}
-          SESSION_LOIRA: ${{ secrets.SESSION_LOIRA }}
-          SESSION_LUCIANA: ${{ secrets.SESSION_LUCIANA }}
+          SESSION_JULIANA: ${{ secrets.SESSION_JULIANA }}
+          SESSION_GIOVANA: ${{ secrets.SESSION_GIOVANA }}
    
 
         run: |
