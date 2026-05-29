@@ -38,6 +38,7 @@ jobs:
           SESSION_KAIQUE: ${{ secrets.SESSION_KAIQUE }} 
           SESSION_JULIANA: ${{ secrets.SESSION_JULIANA }}
           SESSION_GIOVANA: ${{ secrets.SESSION_GIOVANA }}
+          SESSION_EDUARDA: ${{ secrets.SESSION_EDUARDA }}
    
 
         run: |
