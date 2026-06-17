@@ -1,5 +1,10 @@
+# segredos — NUNCA commitar
+.env
+env.sh
+*.session
+*.session-journal
+
+# python
+venv/
 __pycache__/
 *.pyc
-venv/
-.env
-gerar_sessao.py
