@@ -20,7 +20,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 17
-MINUTO_ALVO = 4
+MINUTO_ALVO = 11
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
