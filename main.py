@@ -1,136 +1,178 @@
 import asyncio
 import os
-import datetime
-from telethon import TelegramClient
+import time
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
+from telethon import TelegramClient, events, utils
 from telethon.sessions import StringSession
-from telethon.errors import ChatWriteForbiddenError, FloodWaitError
+from telethon.errors import (
+    ChatWriteForbiddenError,
+    FloodWaitError,
+    SlowModeWaitError,
+)
 
 # --- CONFIGURAÇÕES GERAIS ---
 API_ID = int(os.environ.get('TELEGRAM_API_ID'))
 API_HASH = os.environ.get('TELEGRAM_API_HASH')
 
-# --- LISTA DE ATIRADORES (EXÉRCITO) ---
-# ⚠️ MUDANÇA 1: JAQUELINE EM PRIMEIRO (PRIORIDADE MÁXIMA) ⚠️
+TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
+
+# ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
+HORA_ALVO = 19
+MINUTO_ALVO = 0
+SEGUNDO_ALVO = 0
+
+# Começa a martelar a porta um pouco antes do horário.
+ANTECIPACAO_S = 1.5
+
+# Espaçamento entre disparos sobrepostos do PIPELINE (a rede de segurança).
+# Seu log mostrou ~21 tentativas/s sem flood, então 0.05 (~20/s) é seguro.
+# Se aparecer "🛑 FLOOD", aumente. Para apertar, teste 0.04.
+LAUNCH_INTERVAL = 0.05
+
+DESISTIR_APOS_S = 120
+
 CONTAS = [
-
-        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -1003927816412,
-        "msg": "Juliana/Jota/R3"
+        "nome": "Kaique",
+        "secret_name": "SESSION_KAIQUE",
+        "chat_id": -5186073583,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
+        "msg": "teste de senha",
     },
-
+    # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
 ]
 
-# ⚠️ AJUSTE AQUI PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 30
 
-async def sniper_individual(conta, alvo):
-    """Função otimizada para VELOCIDADE MÁXIMA (Modo Turbo)"""
-    
-    session_str = os.environ.get(conta['secret_name'])
-    if not session_str:
-        print(f"⚠️ Pulei {conta['nome']}: Segredo não encontrado.")
+def _refere_canal(update, canal_id):
+    """True se o update fala do nosso grupo (id 'cru', sem o -100)."""
+    if getattr(update, 'channel_id', None) == canal_id:
+        return True
+    msg = getattr(update, 'message', None)
+    peer = getattr(msg, 'peer_id', None) if msg is not None else None
+    if peer is not None and getattr(peer, 'channel_id', None) == canal_id:
+        return True
+    return False
+
+
+async def disparar(client, peer, msg, nome, vencido, origem, contador):
+    """Um envio isolado. Não bloqueia os outros (pipelining)."""
+    if vencido.is_set():
+        return
+    contador['n'] += 1
+    idx = contador['n']
+    t0 = time.monotonic()
+    try:
+        await client.send_message(peer, msg)
+        if not vencido.is_set():
+            vencido.set()
+            rtt = (time.monotonic() - t0) * 1000
+            agora = datetime.now(TZ).strftime('%H:%M:%S.%f')
+            print(f"🏆 {nome} ENVIOU via {origem}! tiro #{idx} "
+                  f"({agora}) rtt~{rtt:.0f}ms")
+    except ChatWriteForbiddenError:
+        pass  # ainda fechado; outro tiro pega
+    except FloodWaitError as e:
+        print(f"🛑 {nome} FLOOD {e.seconds}s -> aumente o LAUNCH_INTERVAL")
+        await asyncio.sleep(e.seconds)
+    except SlowModeWaitError as e:
+        print(f"🐌 {nome} slowmode {e.seconds}s")
+    except Exception as e:
+        print(f"⚠️ {nome} erro: {e}")
+
+
+async def sniper(conta, alvo):
+    session = os.environ.get(conta['secret_name'])
+    if not session:
+        print(f"⚠️ {conta['nome']}: secret não encontrado.")
         return
 
-    client = TelegramClient(StringSession(session_str), API_ID, API_HASH)
-    chat_alvo_especifico = conta.get('chat_id')
-
+    client = TelegramClient(StringSession(session), API_ID, API_HASH)
+    nome = conta['nome']
+    msg = conta['msg']
+    on_update = None
     try:
         await client.connect()
-        # Força atualização dos diálogos para garantir que encontra o ID -1002704903786
         await client.get_dialogs()
-        
         if not await client.is_user_authorized():
-            print(f"❌ {conta['nome']}: Falha no Login.")
+            print(f"❌ {nome}: login falhou.")
             return
 
-        print(f"✅ {conta['nome']} pronto. Alvo: {chat_alvo_especifico}")
+        peer = await client.get_input_entity(conta['chat_id'])
+        canal_id, _ = utils.resolve_id(conta['chat_id'])
+        print(f"✅ {nome} pronto | DC {client.session.dc_id} | canal {canal_id}")
 
-        # --- FASE 1: ESPERA (Modo Econômico) ---
-        # Fica dormindo até faltarem 30 segundos para não gastar CPU à toa
-        while (alvo - datetime.datetime.now()).total_seconds() > 30:
-            await asyncio.sleep(1)
+        vencido = asyncio.Event()
+        janela = {'on': False}      # só reage a updates dentro da janela de disparo
+        contador = {'n': 0}
+        pendentes = []
 
-        print(f"⚠️ {conta['nome']} entrou em ALERTA MÁXIMO (Faltam < 30s)")
+        def fire(origem):
+            pendentes.append(asyncio.create_task(
+                disparar(client, peer, msg, nome, vencido, origem, contador)
+            ))
 
-        # --- FASE 2: AQUECIMENTO E DISPARO ---
-        enviado = False
-        tentativa = 0
-        
-        # Loop até enviar ou passar do tempo
-        while not enviado:
-            agora = datetime.datetime.now()
-            diferenca = (alvo - agora).total_seconds()
-
-            # Se já passou 2 minutos do horário, desiste.
-            if diferenca < -120: 
-                print(f"❌ {conta['nome']} Desistindo (Tempo esgotado).")
-                break
-
-            # ⚠️ MUDANÇA 2: ESPERA INTELIGENTE ⚠️
-            # Se faltar mais de 2 segundos, dorme um pouco.
-            # Isso evita que o robô tome FloodWait por tentar cedo demais.
-            if diferenca > 0.0:
-                await asyncio.sleep(0.01)
-                continue
-
-            # --- ZONA DE GUERRA (Faltam < 2 segundos ou já passou) ---
+        # --- OUVINTE: dispara no instante que o aviso de "grupo abriu" chega ---
+        async def on_update(update):
+            if vencido.is_set() or not janela['on']:
+                return
             try:
-                # Tenta enviar!
-                await client.send_message(chat_alvo_especifico, conta['msg'])
-                
-                # Se passou daqui, ENVIOU!
-                enviado = True
-                print(f"🏆 {conta['nome']} -> ENVIOU! TENTATIVA {tentativa} ({datetime.datetime.now().strftime('%H:%M:%S.%f')})")
-                
-            except ChatWriteForbiddenError:
-                # ⚠️ MUDANÇA 3: REAÇÃO RÁPIDA ⚠️
-                # O GRUPO AINDA ESTÁ FECHADO.
-                tentativa += 1
-                # Dorme APENAS 0.05s (50ms). Antes era 0.2s (200ms).
-                # Isso faz ele tentar 4x mais rápido.
-                await asyncio.sleep(0.010) 
-                
-            except FloodWaitError as e:
-                print(f"🛑 {conta['nome']} FloodWait: {e.seconds}s (Esperando...)")
-                await asyncio.sleep(e.seconds)
-                
-            except Exception as e:
-                print(f"⚠️ Erro: {e}")
-                await asyncio.sleep(0.1)
+                if _refere_canal(update, canal_id):
+                    fire('LISTENER')
+            except Exception:
+                pass
+        client.add_event_handler(on_update, events.Raw)
+
+        # Espera econômica até faltar 15s.
+        while (alvo - datetime.now(TZ)).total_seconds() > 15:
+            await asyncio.sleep(1)
+        try:
+            await client.get_me()   # esquenta o socket
+        except Exception:
+            pass
+
+        inicio = alvo - timedelta(seconds=ANTECIPACAO_S)
+        deadline = alvo + timedelta(seconds=DESISTIR_APOS_S)
+        while datetime.now(TZ) < inicio:
+            await asyncio.sleep(0.01)
+
+        # --- A partir daqui: ouvinte ativo + pipeline martelando ---
+        janela['on'] = True
+        print(f"⚔️ {nome} ATIVO (listener + pipeline)")
+        while not vencido.is_set() and datetime.now(TZ) < deadline:
+            fire('PIPELINE')
+            await asyncio.sleep(LAUNCH_INTERVAL)
+
+        await asyncio.gather(*pendentes, return_exceptions=True)
+        if not vencido.is_set():
+            print(f"❌ {nome} não conseguiu (tempo esgotado).")
 
     except Exception as e:
-        print(f"❌ Erro fatal {conta['nome']}: {e}")
+        print(f"❌ Erro fatal {nome}: {e}")
     finally:
+        if on_update is not None:
+            try:
+                client.remove_event_handler(on_update, events.Raw)
+            except Exception:
+                pass
         if client.is_connected():
             await client.disconnect()
 
+
 async def main():
-    agora = datetime.datetime.now()
-    alvo = agora.replace(hour=HORA_ALVO, minute=MINUTO_ALVO, second=0, microsecond=0) 
-    
-    print(f"🔥 INICIANDO MODO TURBO ({len(CONTAS)} contas)")
-    print(f"🎯 Alvo: {alvo.strftime('%H:%M:%S')}")
+    agora = datetime.now(TZ)
+    alvo = agora.replace(hour=HORA_ALVO, minute=MINUTO_ALVO,
+                         second=SEGUNDO_ALVO, microsecond=0)
+    if alvo < agora:
+        alvo += timedelta(days=1)
 
-    # Espera inicial para não gastar GitHub Actions à toa
-    while (alvo - datetime.datetime.now()).total_seconds() > 40:
-        restante = int((alvo - datetime.datetime.now()).total_seconds())
-        if restante % 30 == 0:
-            print(f"💤 Aguardando... Falta {restante}s")
-        await asyncio.sleep(5)
+    print(f"🎯 Alvo: {alvo.strftime('%d/%m %H:%M:%S')} BRT | "
+          f"agora {agora.strftime('%H:%M:%S')} | "
+          f"faltam {(alvo - agora).total_seconds():.0f}s")
+    print(f"⚙️  launch_interval={LAUNCH_INTERVAL}s | contas={len(CONTAS)}")
 
-    print("⚔️ PREPARANDO ATAQUE... (Faltam < 40s)")
-    
-    tarefas = []
-    for conta in CONTAS:
-        tarefas.append(sniper_individual(conta, alvo))
-    
-    await asyncio.gather(*tarefas)
+    await asyncio.gather(*(sniper(c, alvo) for c in CONTAS))
+
 
 if __name__ == '__main__':
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_until_complete(main())
+    asyncio.run(main())
