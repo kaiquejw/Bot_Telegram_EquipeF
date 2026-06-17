@@ -20,11 +20,11 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 17
-MINUTO_ALVO = 23
+MINUTO_ALVO = 32
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
-ANTECIPACAO_S = 0.0
+ANTECIPACAO_S = 5.0
 
 # Espaçamento entre disparos sobrepostos do PIPELINE (a rede de segurança).
 # Seu log mostrou ~21 tentativas/s sem flood, então 0.05 (~20/s) é seguro.
@@ -116,6 +116,7 @@ async def sniper(conta, alvo):
         async def on_update(update):
             if vencido.is_set() or not janela['on']:
                 return
+            print(f"📨 update recebido: {type(update).__name__}")   # <-- ADICIONE
             try:
                 if _refere_canal(update, canal_id):
                     fire('LISTENER')
