@@ -20,7 +20,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 17
-MINUTO_ALVO = 32
+MINUTO_ALVO = 35
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -45,13 +45,26 @@ CONTAS = [
 
 
 def _refere_canal(update, canal_id):
-    """True se o update fala do nosso grupo (id 'cru', sem o -100)."""
+    """True se o update fala do nosso grupo — cobre grupo básico (chat) e supergrupo (channel)."""
     if getattr(update, 'channel_id', None) == canal_id:
         return True
-    msg = getattr(update, 'message', None)
-    peer = getattr(msg, 'peer_id', None) if msg is not None else None
-    if peer is not None and getattr(peer, 'channel_id', None) == canal_id:
+    if getattr(update, 'chat_id', None) == canal_id:
         return True
+    # alguns updates trazem o grupo em .peer (ex.: UpdateChatDefaultBannedRights)
+    peer = getattr(update, 'peer', None)
+    if peer is not None:
+        if getattr(peer, 'chat_id', None) == canal_id:
+            return True
+        if getattr(peer, 'channel_id', None) == canal_id:
+            return True
+    # ou dentro de .message.peer_id
+    msg = getattr(update, 'message', None)
+    pid = getattr(msg, 'peer_id', None) if msg is not None else None
+    if pid is not None:
+        if getattr(pid, 'chat_id', None) == canal_id:
+            return True
+        if getattr(pid, 'channel_id', None) == canal_id:
+            return True
     return False
 
 
