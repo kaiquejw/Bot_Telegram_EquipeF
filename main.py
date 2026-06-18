@@ -20,11 +20,11 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 18
-MINUTO_ALVO = 30
+MINUTO_ALVO = 56
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
-ANTECIPACAO_S = 5.0
+ANTECIPACAO_S = 0.0
 
 # Espaçamento entre disparos sobrepostos do PIPELINE (a rede de segurança).
 # Seu log mostrou ~21 tentativas/s sem flood, então 0.05 (~20/s) é seguro.
@@ -154,7 +154,8 @@ async def sniper(conta, alvo):
         janela['on'] = True
         print(f"⚔️ {nome} ATIVO (listener + pipeline)")
         while not vencido.is_set() and datetime.now(TZ) < deadline:
-            await asyncio.sleep(0.05)
+            fire('PIPELINE')
+            await asyncio.sleep(LAUNCH_INTERVAL)
 
         await asyncio.gather(*pendentes, return_exceptions=True)
         if not vencido.is_set():
