@@ -44,8 +44,8 @@ CONTAS = [
     {
         "nome": "Anne",
         "secret_name": "SESSION_ANNE",
-        "chat_id": -1004440363120,   
-        "msg": "teste de senha",
+        "chat_id": -1003552682244,   
+        "msg": "Anny x JB R2",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
 ]
