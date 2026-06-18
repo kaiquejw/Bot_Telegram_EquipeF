@@ -34,12 +34,12 @@ LAUNCH_INTERVAL = 0.04
 DESISTIR_APOS_S = 120
 
 CONTAS = [
-    {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -1004440363120,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
-        "msg": "teste de senha",
-    },
+    #{
+    #    "nome": "Kaique",
+    #    "secret_name": "SESSION_KAIQUE",
+    #    "chat_id": -1004440363120,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
+    #    "msg": "teste de senha",
+    #},
 
     {
         "nome": "Anne",
