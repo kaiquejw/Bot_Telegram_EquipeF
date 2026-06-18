@@ -19,8 +19,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 17
-MINUTO_ALVO = 38
+HORA_ALVO = 18
+MINUTO_ALVO = 29
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
