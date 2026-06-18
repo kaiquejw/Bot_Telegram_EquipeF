@@ -20,7 +20,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 16
-MINUTO_ALVO = 27
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -37,14 +37,14 @@ CONTAS = [
     {
         "nome": "Kaique",
         "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5225850435,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
+        "chat_id": -1004440363120,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
         "msg": "teste de senha",
     },
 
     {
         "nome": "Anne",
         "secret_name": "SESSION_ANNE",
-        "chat_id": -5225850435,   
+        "chat_id": -1004440363120,   
         "msg": "teste de senha",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
