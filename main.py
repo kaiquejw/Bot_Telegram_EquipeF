@@ -20,7 +20,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 16
-MINUTO_ALVO = 22
+MINUTO_ALVO = 27
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -37,7 +37,7 @@ CONTAS = [
     {
         "nome": "Kaique",
         "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
+        "chat_id": -5225850435,   # ⚠️ TROQUE pelo ID do SEU GRUPO DE TESTE
         "msg": "teste de senha",
     },
 
