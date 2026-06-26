@@ -19,8 +19,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 19
+MINUTO_ALVO = 3
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -37,10 +37,10 @@ CONTAS = [
 
 
     {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,   
-        "msg": "Anny x JB R2",
+        "nome": "Thaina",
+        "secret_name": "SESSION_THAINA",
+        "chat_id": -1004431335449,   
+        "msg": "Thaina X Daniel R2",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
 ]
@@ -137,7 +137,7 @@ async def sniper(conta, alvo):
                     fire('LISTENER')
             except Exception:
                 pass
-        client.add_event_handler(on_update, events.Raw)
+        #client.add_event_handler(on_update, events.Raw)
 
         # Espera econômica até faltar 15s.
         while (alvo - datetime.now(TZ)).total_seconds() > 15:
@@ -156,7 +156,8 @@ async def sniper(conta, alvo):
         janela['on'] = True
         print(f"⚔️ {nome} ATIVO (listener + pipeline)")
         while not vencido.is_set() and datetime.now(TZ) < deadline:
-            await asyncio.sleep(0.05)
+            fire('PIPELINE')
+            await asyncio.sleep(LAUNCH_INTERVAL)
 
         await asyncio.gather(*pendentes, return_exceptions=True)
         if not vencido.is_set():
