@@ -1,11 +1,13 @@
 import asyncio
 import os
 import time
+import random
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from telethon import TelegramClient, events, utils
 from telethon.sessions import StringSession
+from telethon.tl.functions.messages import SendMessageRequest
 from telethon.errors import (
     ChatWriteForbiddenError,
     FloodWaitError,
@@ -20,26 +22,23 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 19
-MINUTO_ALVO = 3
+MINUTO_ALVO = 24
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
 ANTECIPACAO_S = 0.0
 
-# Espaçamento entre disparos sobrepostos do PIPELINE (a rede de segurança).
-# Seu log mostrou ~21 tentativas/s sem flood, então 0.05 (~20/s) é seguro.
-# Se aparecer "🛑 FLOOD", aumente. Para apertar, teste 0.04.
+# Espaçamento entre disparos sobrepostos do PIPELINE.
+# 0.04 (~25/s). Se aparecer "🛑 FLOOD", aumente.
 LAUNCH_INTERVAL = 0.04
 
 DESISTIR_APOS_S = 120
 
 CONTAS = [
-
-
     {
         "nome": "Thaina",
         "secret_name": "SESSION_THAINA",
-        "chat_id": -1004431335449,   
+        "chat_id": -1004431335449,
         "msg": "Thaina X Daniel R2",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
@@ -52,14 +51,12 @@ def _refere_canal(update, canal_id):
         return True
     if getattr(update, 'chat_id', None) == canal_id:
         return True
-    # alguns updates trazem o grupo em .peer (ex.: UpdateChatDefaultBannedRights)
     peer = getattr(update, 'peer', None)
     if peer is not None:
         if getattr(peer, 'chat_id', None) == canal_id:
             return True
         if getattr(peer, 'channel_id', None) == canal_id:
             return True
-    # ou dentro de .message.peer_id
     msg = getattr(update, 'message', None)
     pid = getattr(msg, 'peer_id', None) if msg is not None else None
     if pid is not None:
@@ -70,7 +67,14 @@ def _refere_canal(update, canal_id):
     return False
 
 
-async def disparar(client, peer, msg, nome, vencido, origem, contador):
+def _eh_fechado(e):
+    """Reconhece qualquer bloqueio de envio como 'grupo ainda fechado'."""
+    s = str(e).lower()
+    return ('plain' in s) or ('forbidden' in s and 'send' in s) \
+        or ('write' in s and 'forbidden' in s)
+
+
+async def disparar(client, peer, msg, nome, vencido, origem, contador, random_id):
     """Um envio isolado. Não bloqueia os outros (pipelining)."""
     if vencido.is_set():
         return
@@ -78,7 +82,8 @@ async def disparar(client, peer, msg, nome, vencido, origem, contador):
     idx = contador['n']
     t0 = time.monotonic()
     try:
-        await client.send_message(peer, msg)
+        # mesmo random_id em todos os tiros -> Telegram deduplica, posta UMA só
+        await client(SendMessageRequest(peer=peer, message=msg, random_id=random_id))
         if not vencido.is_set():
             vencido.set()
             rtt = (time.monotonic() - t0) * 1000
@@ -93,7 +98,11 @@ async def disparar(client, peer, msg, nome, vencido, origem, contador):
     except SlowModeWaitError as e:
         print(f"🐌 {nome} slowmode {e.seconds}s")
     except Exception as e:
-        print(f"⚠️ {nome} erro: {e}")
+        if _eh_fechado(e):
+            pass  # outro tipo de bloqueio = ainda fechado, silencioso
+        else:
+            print(f"⚠️ {nome} erro: {e}")
+            await asyncio.sleep(0.3)
 
 
 async def sniper(conta, alvo):
@@ -115,29 +124,29 @@ async def sniper(conta, alvo):
 
         peer = await client.get_input_entity(conta['chat_id'])
         canal_id, _ = utils.resolve_id(conta['chat_id'])
+        random_id = random.randrange(-(2**63), 2**63 - 1)  # fixo por rodada
         print(f"✅ {nome} pronto | DC {client.session.dc_id} | canal {canal_id}")
 
         vencido = asyncio.Event()
-        janela = {'on': False}      # só reage a updates dentro da janela de disparo
+        janela = {'on': False}
         contador = {'n': 0}
         pendentes = []
 
         def fire(origem):
             pendentes.append(asyncio.create_task(
-                disparar(client, peer, msg, nome, vencido, origem, contador)
+                disparar(client, peer, msg, nome, vencido, origem, contador, random_id)
             ))
 
-        # --- OUVINTE: dispara no instante que o aviso de "grupo abriu" chega ---
+        # --- OUVINTE (desligado para o modo SÓ PIPELINE) ---
         async def on_update(update):
             if vencido.is_set() or not janela['on']:
                 return
-            print(f"📨 update recebido: {type(update).__name__}")   # <-- ADICIONE
             try:
                 if _refere_canal(update, canal_id):
                     fire('LISTENER')
             except Exception:
                 pass
-        #client.add_event_handler(on_update, events.Raw)
+        # client.add_event_handler(on_update, events.Raw)   # <- descomente p/ voltar o listener
 
         # Espera econômica até faltar 15s.
         while (alvo - datetime.now(TZ)).total_seconds() > 15:
@@ -152,10 +161,17 @@ async def sniper(conta, alvo):
         while datetime.now(TZ) < inicio:
             await asyncio.sleep(0.01)
 
-        # --- A partir daqui: ouvinte ativo + pipeline martelando ---
+        # --- PIPELINE martelando ---
         janela['on'] = True
-        print(f"⚔️ {nome} ATIVO (listener + pipeline)")
+        print(f"⚔️ {nome} ATIVO (só pipeline)")
         while not vencido.is_set() and datetime.now(TZ) < deadline:
+            if not client.is_connected():
+                print(f"🔌 {nome} reconectando...")
+                try:
+                    await client.connect()
+                except Exception:
+                    await asyncio.sleep(1)
+                    continue
             fire('PIPELINE')
             await asyncio.sleep(LAUNCH_INTERVAL)
 
