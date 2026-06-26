@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -36,10 +36,10 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
     {
-        "nome": "Thaina",
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1002443109385,
-        "msg": "Thaina X Daniel R2",
+        "nome": "Jake",
+        "secret_name": "SESSION_JAQUELINE",
+        "chat_id": -1003552682244,
+        "msg": "Jakeline x Daniel raio 3",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
 ]
