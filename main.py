@@ -38,7 +38,7 @@ CONTAS = [
     {
         "nome": "Thaina",
         "secret_name": "SESSION_THAINA",
-        "chat_id": -1004431335449,
+        "chat_id": -1002443109385,
         "msg": "Thaina X Daniel R2",
     },
     # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
