@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 14
-MINUTO_ALVO = 21
+MINUTO_ALVO = 29
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -36,14 +36,6 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
     
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Joice",
-    #    "secret_name": "SESSION_JOICE",
-    #    "chat_id": -5462106210,
-    #    "msg": "Joyce /Guilherme R7 C5"
-    #},
-
         #  DOBRA 19:00 🟣 -1002742703600
     #{
     #    "nome": "Rafa",
@@ -54,11 +46,19 @@ CONTAS = [
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     #{
-    #    "nome": "Scarllet",
-    #    "secret_name": "SESSION_SCARLLET",
-    #    "chat_id": -5123879477,
-    #    "msg": "ScarlettxDaniel raio 0"
+    #    "nome": "Joice",
+    #    "secret_name": "SESSION_JOICE",
+    #    "chat_id": -5462106210,
+    #    "msg": "Joyce /Guilherme R7 C5"
     #},
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Scarllet",
+        "secret_name": "SESSION_SCARLLET",
+        "chat_id": -5123879477,
+        "msg": "ScarlettxDaniel raio 0"
+    },
 
         #  20h00 Grupo senha normal -1003601357589
     #{
@@ -68,20 +68,20 @@ CONTAS = [
     #    "msg": "Eduarda x Nego RAIO 5"
     #},
 
-        #  20h00 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1004440363120,
-        "msg": "Anny x JB R2"
-    },
-
         #  20h30 Senha Grupo Normal -1003927816412
     #{
     #    "nome": "Juliana",
     #    "secret_name": "SESSION_JULIANA",
     #    "chat_id": -5108358245,
     #    "msg": "Juliana/Jota/R3"
+    #},
+
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    #{
+    #    "nome": "Anne",
+    #    "secret_name": "SESSION_ANNE",
+    #    "chat_id": -1004440363120,
+    #    "msg": "Anny x JB R2"
     #},
 
 ]
