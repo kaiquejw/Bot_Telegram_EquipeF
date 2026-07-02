@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 13
-MINUTO_ALVO = 56
+HORA_ALVO = 14
+MINUTO_ALVO = 6
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -42,14 +42,6 @@ CONTAS = [
         "secret_name": "SESSION_JOICE",
         "chat_id": -5462106210,
         "msg": "Joyce /Guilherme R7 C5"
-    },
-
-        #  20h20 Senha normal -1003875645355
-    {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -4801139096,
-        "msg": "Mônica x jaçanã G11"
     },
 
         #  DOBRA 19:00 🟣 -1002742703600
@@ -92,21 +84,6 @@ CONTAS = [
         "msg": "Juliana/Jota/R3"
     },
 
-        #  21h00 Senha Grupo Bate Volta -1003993735474
-    {
-        "nome": "Katia",
-        "secret_name": "SESSION_KATIA",
-        "chat_id": -5117474448,
-        "msg": "Katia pantanal r2 laudo"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -4992766314,
-        "msg": "Miria/adriano raio 3"
-    },
 ]
 
 
