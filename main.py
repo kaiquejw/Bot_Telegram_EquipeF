@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 13
+MINUTO_ALVO = 56
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -35,13 +35,78 @@ LAUNCH_INTERVAL = 0.04
 DESISTIR_APOS_S = 120
 
 CONTAS = [
+    
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
-        "nome": "Jake",
-        "secret_name": "SESSION_JAQUELINE",
-        "chat_id": -1003552682244,
-        "msg": "Jakeline x Daniel raio 3",
+        "nome": "Joice",
+        "secret_name": "SESSION_JOICE",
+        "chat_id": -5462106210,
+        "msg": "Joyce /Guilherme R7 C5"
     },
-    # Todas as contas são DC Miami -> rode tudo nesta VPS de Miami.
+
+        #  20h20 Senha normal -1003875645355
+    {
+        "nome": "Monica",
+        "secret_name": "SESSION_MONICA",
+        "chat_id": -4801139096,
+        "msg": "Mônica x jaçanã G11"
+    },
+
+        #  DOBRA 19:00 🟣 -1002742703600
+    {
+        "nome": "Rafa",
+        "secret_name": "SESSION_RAFA",
+        "chat_id": -5230687258,
+        "msg": "Rafaela X da morte r3"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Scarllet",
+        "secret_name": "SESSION_SCARLLET",
+        "chat_id": -5123879477,
+        "msg": "ScarlettxDaniel raio 0"
+    },
+
+        #  20h00 Grupo senha normal -1003601357589
+    {
+        "nome": "Eduarda",
+        "secret_name": "SESSION_EDUARDA",
+        "chat_id": -5127442354,
+        "msg": "Eduarda x Nego RAIO 5"
+    },
+
+        #  20h00 Senha Grupo Preferencial -1003552682244
+    {
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1004440363120,
+        "msg": "Anny x JB R2"
+    },
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    {
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -5108358245,
+        "msg": "Juliana/Jota/R3"
+    },
+
+        #  21h00 Senha Grupo Bate Volta -1003993735474
+    {
+        "nome": "Katia",
+        "secret_name": "SESSION_KATIA",
+        "chat_id": -5117474448,
+        "msg": "Katia pantanal r2 laudo"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Miriam",
+        "secret_name": "SESSION_MIRIAM",
+        "chat_id": -4992766314,
+        "msg": "Miria/adriano raio 3"
+    },
 ]
 
 
