@@ -21,7 +21,7 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
@@ -36,37 +36,29 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
     
-        #  DOBRA 19:00 🟣 -1002742703600
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -1002742703600,
-        "msg": "Rafaela X da morte r3"
+        "nome": "Joice",
+        "secret_name": "SESSION_JOICE",
+        "chat_id": -1002443109385,
+        "msg": "Joyce /Guilherme R7 C5"
     },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Joice",
-    #    "secret_name": "SESSION_JOICE",
-    #    "chat_id": -1002443109385,
-    #    "msg": "Joyce /Guilherme R7 C5"
-    #},
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Scarllet",
-    #    "secret_name": "SESSION_SCARLLET",
-    #    "chat_id": -1002443109385,
-    #    "msg": "ScarlettxDaniel raio 0"
-    #},
+    {
+        "nome": "Scarllet",
+        "secret_name": "SESSION_SCARLLET",
+        "chat_id": -1002443109385,
+        "msg": "ScarlettxDaniel raio 0"
+    },
 
         #  20h00 Grupo senha normal -1003601357589
-    #{
-    #    "nome": "Eduarda",
-    #    "secret_name": "SESSION_EDUARDA",
-    #    "chat_id": -1003601357589,
-    #    "msg": "Eduarda x Nego RAIO 5"
-    #},
+    {
+        "nome": "Eduarda",
+        "secret_name": "SESSION_EDUARDA",
+        "chat_id": -1003601357589,
+        "msg": "Eduarda x Nego RAIO 5"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
