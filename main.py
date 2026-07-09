@@ -37,21 +37,13 @@ DESISTIR_APOS_S = 120
 CONTAS = [
     
 
-         
-    {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,
-        "msg": "test 222"
-    },
-
         #  20h00 Grupo senha normal -1003601357589
-    #{
-    #    "nome": "Laysa",
-    #    "secret_name": "SESSION_LAYSA",
-    #    "chat_id": -1003601357589,
-    #    "msg": "Laysa x Mg R5"
-    #},
+    {
+        "nome": "Laysa",
+        "secret_name": "SESSION_LAYSA",
+        "chat_id": -1003601357589,
+        "msg": "Laysa x Mg R5"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
