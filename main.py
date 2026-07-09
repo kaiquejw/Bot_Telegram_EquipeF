@@ -21,7 +21,7 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
@@ -36,21 +36,14 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
     
-        #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    {
-        "nome": "Jenniffer",
-        "secret_name": "SESSION_JENNIFFER",
-        "chat_id": -1003625815869,
-        "msg": "Jennifer x Wanderson 5x8"
-    },
 
         #  20h00 Grupo senha normal -1003601357589
-    #{
-    #    "nome": "Laysa",
-    #    "secret_name": "SESSION_LAYSA",
-    #    "chat_id": -1003601357589,
-    #    "msg": "Laysa x Mg R5"
-    #},
+    {
+        "nome": "Laysa",
+        "secret_name": "SESSION_LAYSA",
+        "chat_id": -1003601357589,
+        "msg": "Laysa x Mg R5"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
