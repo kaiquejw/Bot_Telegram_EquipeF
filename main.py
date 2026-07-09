@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 19
-MINUTO_ALVO = 9
+MINUTO_ALVO = 12
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -30,7 +30,7 @@ ANTECIPACAO_S = 0.0
 
 # Espaçamento entre disparos sobrepostos do PIPELINE.
 # 0.04 (~25/s). Se aparecer "🛑 FLOOD", aumente.
-LAUNCH_INTERVAL = 0.04
+LAUNCH_INTERVAL = 0.035
 
 DESISTIR_APOS_S = 120
 
