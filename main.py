@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -36,23 +36,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
     
-    
-
-        #  20h00 Grupo senha normal -1003601357589
-    {
-        "nome": "Laysa",
-        "secret_name": "SESSION_LAYSA",
-        "chat_id": -1003601357589,
-        "msg": "Laysa x Mg R5"
-    },
-
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Juliana/Jota/R3"
-    #},
+    {
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -1003927816412,
+        "msg": "Juliana/Jota/R3"
+    },
 
 ]
 
