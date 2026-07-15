@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 15
-MINUTO_ALVO = 4
+HORA_ALVO = 18
+MINUTO_ALVO = 56
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -37,12 +37,12 @@ DESISTIR_APOS_S = 120
 CONTAS = [
     
         #  Teste sen -5186073583
-    {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,
-        "msg": "teste"
-    },
+    #{
+    #    "nome": "Kaique",
+    #    "secret_name": "SESSION_KAIQUE",
+    #    "chat_id": -5186073583,
+    #    "msg": "teste"
+    #},
 
         #  19h30 Não fecha Senha normal impar vila independência -1003533574600
     {
@@ -53,12 +53,12 @@ CONTAS = [
     },
 
         #  Senha Normal -1003252592404
-    {
-        "nome": "Erika",
-        "secret_name": "SESSION_ERIKA",
-        "chat_id": -5385754543,
-        "msg": "Erika X kauan R 5"
-    },
+    #{
+    #    "nome": "Erika",
+    #    "secret_name": "SESSION_ERIKA",
+    #    "chat_id": -5385754543,
+    #    "msg": "Erica X kauan R 5"
+    #},
 
 
 ]
