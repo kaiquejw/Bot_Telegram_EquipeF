@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 15
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 # Começa a martelar a porta um pouco antes do horário.
@@ -30,19 +30,36 @@ ANTECIPACAO_S = 0.0
 
 # Espaçamento entre disparos sobrepostos do PIPELINE.
 # 0.04 (~25/s). Se aparecer "🛑 FLOOD", aumente.
-LAUNCH_INTERVAL = 0.035
+LAUNCH_INTERVAL = 0.04
 
 DESISTIR_APOS_S = 120
 
 CONTAS = [
     
-        #  20h45 Senha Grupo Preferencial -1003552682244
+        #  Teste sen -5186073583
     {
-        "nome": "Jake",
-        "secret_name": "SESSION_JAKE",
-        "chat_id": -1003552682244,
-        "msg": "Jakeline x Daniel raio 3"
+        "nome": "Kaique",
+        "secret_name": "SESSION_KAIQUE",
+        "chat_id": -5186073583,
+        "msg": "teste"
     },
+
+        #  19h30 Não fecha Senha normal impar vila independência -1003533574600
+    {
+        "nome": "Thayna",
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R5 X C7 Marcos"
+    },
+
+        #  Senha Normal -1003252592404
+    {
+        "nome": "Erika",
+        "secret_name": "SESSION_ERIKA",
+        "chat_id": -5385754543,
+        "msg": "Erika X kauan R 5"
+    },
+
 
 ]
 
