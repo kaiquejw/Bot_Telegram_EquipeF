@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 30
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,61 +36,29 @@ AGUARDAR_CONFIRMACAO_S = 15
 CONTAS = [
 
 
-        #  20h30 Senha Grupo Normal -1003927816412
+        #  20h45 Senha Grupo Preferencial -1003552682244
     {
-        "nome": "Jane",
-        "secret_name": "SESSION_JANE",
-        "chat_id": -1003927816412,
-        "msg": "Jane/Soberano Raio 3"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Nathalia",
-        "secret_name": "SESSION_NATHALIA",
-        "chat_id": -1003927816412,
-        "msg": "Nathalia gordão raio 2"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -1003927816412,
-        "msg": "Luciana x Primavera R2"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -1003927816412,
-        "msg": "Juliana/Jota/R3"
+        "nome": "Jake",
+        "secret_name": "SESSION_JAKE",
+        "chat_id": -1003552682244,
+        "msg": "Jakeline x Daniel raio 3"
     },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    #{
-    #    "nome": "Jake",
-    #    "secret_name": "SESSION_JAKE",
-    #    "chat_id": -5291105956,
-    #    "msg": "Jakeline x Daniel raio 3"
-    #},
+    {
+        "nome": "Tamires",
+        "secret_name": "SESSION_TAMIRES",
+        "chat_id": -1003552682244,
+        "msg": "Tamires x Rodrigo R 3 (gestante)"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    #{
-    #    "nome": "Tamires",
-    #    "secret_name": "SESSION_TAMIRES",
-    #    "chat_id": -5391035776,
-    #    "msg": "Tamires x Rodrigo R 3 (gestante)"
-    #},
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    #{
-    #    "nome": "Anne",
-    #    "secret_name": "SESSION_ANNE",
-    #    "chat_id": -1004440363120,
-    #    "msg": "Anny x JB R2"
-    #},
+    {
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1003552682244,
+        "msg": "Anny x JB R2"
+    },
 
 ]
 
