@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 20
-MINUTO_ALVO = 45
+MINUTO_ALVO = 49
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,29 +35,12 @@ AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
 
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
+        #  21h00 Senha Grupo Bate Volta -1003993735474
     {
-        "nome": "Jake",
-        "secret_name": "SESSION_JAKE",
-        "chat_id": -1003552682244,
-        "msg": "Jakeline x Daniel raio 3"
-    },
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -1003552682244,
-        "msg": "Tamires x Rodrigo R 3 (gestante)"
-    },
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,
-        "msg": "Anny x JB R2"
+        "nome": "Katia",
+        "secret_name": "SESSION_KATIA",
+        "chat_id": -5117474448,
+        "msg": "Katia pantanal r2 laudo"
     },
 
 ]
