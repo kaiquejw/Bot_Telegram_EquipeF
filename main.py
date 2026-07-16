@@ -22,11 +22,11 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 17
-MINUTO_ALVO = 2
+MINUTO_ALVO = 7
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.04
+LAUNCH_INTERVAL = 0.035
 DESISTIR_APOS_S = 120
 
 # Tempo pra você apertar Ctrl+C e corrigir se alguma conta falhar.
