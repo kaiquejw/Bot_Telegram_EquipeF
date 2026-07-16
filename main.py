@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 19
-MINUTO_ALVO = 0
+MINUTO_ALVO = 14
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,20 +35,12 @@ AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
 
-        #  Teste sen -5186073583
-    #{
-    #    "nome": "Kaique",
-    #    "secret_name": "SESSION_KAIQUE",
-    #    "chat_id": -5186073583,
-    #    "msg": "teste"
-    #},
-
-        #  19H00 Senha Normal (Dobra) 19:00 HS -1004417252531
+        #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
     {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -1004417252531,
-        "msg": "Rafaela X da morte r3"
+        "nome": "Joice",
+        "secret_name": "SESSION_JOYCE",
+        "chat_id": -5462106210,
+        "msg": "Joyce /Guilherme R7 C5"
     },
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
@@ -106,6 +98,14 @@ CONTAS = [
     #    "chat_id": -4992766314,
     #    "msg": "Miria/adriano raio 3"
     #},
+
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    {
+        "nome": "Jake",
+        "secret_name": "SESSION_JAKE",
+        "chat_id": -5291105956,
+        "msg": "Jakeline x Daniel raio 3"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     #{
