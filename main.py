@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 17
-MINUTO_ALVO = 7
+HORA_ALVO = 19
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,20 +36,20 @@ AGUARDAR_CONFIRMACAO_S = 15
 CONTAS = [
 
         #  Teste sen -5186073583
-    {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,
-        "msg": "teste"
-    },
+    #{
+    #    "nome": "Kaique",
+    #    "secret_name": "SESSION_KAIQUE",
+    #    "chat_id": -5186073583,
+    #    "msg": "teste"
+    #},
 
         #  19H00 Senha Normal (Dobra) 19:00 HS -1004417252531
-    #{
-    #    "nome": "Rafa",
-    #    "secret_name": "SESSION_RAFA",
-    #    "chat_id": -5230687258,
-    #    "msg": "Rafaela X da morte r3"
-    #},
+    {
+        "nome": "Rafa",
+        "secret_name": "SESSION_RAFA",
+        "chat_id": -1004417252531,
+        "msg": "Rafaela X da morte r3"
+    },
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
     #{
