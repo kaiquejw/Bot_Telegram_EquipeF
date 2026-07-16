@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 15
-MINUTO_ALVO = 31
+HORA_ALVO = 17
+MINUTO_ALVO = 2
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,92 +36,92 @@ AGUARDAR_CONFIRMACAO_S = 15
 CONTAS = [
 
         #  Teste sen -5186073583
-    #{
-    #    "nome": "Kaique",
-    #    "secret_name": "SESSION_KAIQUE",
-    #    "chat_id": -5186073583,
-    #    "msg": "teste"
-    #},
+    {
+        "nome": "Kaique",
+        "secret_name": "SESSION_KAIQUE",
+        "chat_id": -5186073583,
+        "msg": "teste"
+    },
 
         #  19H00 Senha Normal (Dobra) 19:00 HS -1004417252531
-    {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -5230687258,
-        "msg": "Rafaela X da morte r3"
-    },
+    #{
+    #    "nome": "Rafa",
+    #    "secret_name": "SESSION_RAFA",
+    #    "chat_id": -5230687258,
+    #    "msg": "Rafaela X da morte r3"
+    #},
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    {
-        "nome": "Shayany",
-        "secret_name": "SESSION_SHAYANY",
-        "chat_id": -5451789283,
-        "msg": "Shayany x Gustavo R3"
-    },
+    #{
+    #    "nome": "Shayany",
+    #    "secret_name": "SESSION_SHAYANY",
+    #    "chat_id": -5451789283,
+    #    "msg": "Shayany x Gustavo R3"
+    #},
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Thaina",
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1004431335449,
-        "msg": "Thaina X Daniel R2"
-    },
+    #{
+    #    "nome": "Thaina",
+    #    "secret_name": "SESSION_THAINA",
+    #    "chat_id": -1004431335449,
+    #    "msg": "Thaina X Daniel R2"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Jane",
-        "secret_name": "SESSION_JANE",
-        "chat_id": -5451747541,
-        "msg": "Jane/Soberano Raio 3"
-    },
+    #{
+    #    "nome": "Jane",
+    #    "secret_name": "SESSION_JANE",
+    #    "chat_id": -5451747541,
+    #    "msg": "Jane/Soberano Raio 3"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Nathalia",
-        "secret_name": "SESSION_NATHALIA",
-        "chat_id": -5187073706,
-        "msg": "Nathalia gordão raio 2"
-    },
+    #{
+    #    "nome": "Nathalia",
+    #    "secret_name": "SESSION_NATHALIA",
+    #    "chat_id": -5187073706,
+    #    "msg": "Nathalia gordão raio 2"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -5263208911,
-        "msg": "Luciana x Primavera R2"
-    },
+    #{
+    #    "nome": "Luciana",
+    #    "secret_name": "SESSION_LUCIANA",
+    #    "chat_id": -5263208911,
+    #    "msg": "Luciana x Primavera R2"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -5108358245,
-        "msg": "Juliana/Jota/R3"
-    },
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -5108358245,
+    #    "msg": "Juliana/Jota/R3"
+    #},
 
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -4992766314,
-        "msg": "Miria/adriano raio 3"
-    },
+    #{
+    #    "nome": "Miriam",
+    #    "secret_name": "SESSION_MIRIAM",
+    #    "chat_id": -4992766314,
+    #    "msg": "Miria/adriano raio 3"
+    #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -5391035776,
-        "msg": "Tamires x Rodrigo R 3 (gestante)"
-    },
+    #{
+    #    "nome": "Tamires",
+    #    "secret_name": "SESSION_TAMIRES",
+    #    "chat_id": -5391035776,
+    #    "msg": "Tamires x Rodrigo R 3 (gestante)"
+    #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1004440363120,
-        "msg": "Anny x JB R2"
-    },
+    #{
+    #    "nome": "Anne",
+    #    "secret_name": "SESSION_ANNE",
+    #    "chat_id": -1004440363120,
+    #    "msg": "Anny x JB R2"
+    #},
 
 ]
 
