@@ -100,12 +100,12 @@ CONTAS = [
     #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Jake",
-        "secret_name": "SESSION_JAKE",
-        "chat_id": -5291105956,
-        "msg": "Jakeline x Daniel raio 3"
-    },
+    #{
+    #    "nome": "Jake",
+    #    "secret_name": "SESSION_JAKE",
+    #    "chat_id": -5291105956,
+    #    "msg": "Jakeline x Daniel raio 3"
+    #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     #{
