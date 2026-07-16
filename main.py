@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 19
-MINUTO_ALVO = 18
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,29 +35,29 @@ AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
 
-        #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
         "nome": "Joice",
         "secret_name": "SESSION_JOYCE",
-        "chat_id": -5462106210,
+        "chat_id": -1002443109385,
         "msg": "Joyce /Guilherme R7 C5"
     },
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    #{
-    #    "nome": "Shayany",
-    #    "secret_name": "SESSION_SHAYANY",
-    #    "chat_id": -5451789283,
-    #    "msg": "Shayany x Gustavo R3"
-    #},
+    {
+        "nome": "Shayany",
+        "secret_name": "SESSION_SHAYANY",
+        "chat_id": -1003832065301,
+        "msg": "Shayany x Gustavo R3"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Thaina",
-    #    "secret_name": "SESSION_THAINA",
-    #    "chat_id": -1004431335449,
-    #    "msg": "Thaina X Daniel R2"
-    #},
+    {
+        "nome": "Thaina",
+        "secret_name": "SESSION_THAINA",
+        "chat_id": -1002443109385,
+        "msg": "Thaina X Daniel R2"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
