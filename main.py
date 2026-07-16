@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 13
-MINUTO_ALVO = 59
+HORA_ALVO = 14
+MINUTO_ALVO = 7
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -305,9 +305,8 @@ async def main():
 
     if falhas:
         for i in range(AGUARDAR_CONFIRMACAO_S, 0, -1):
-            print(f"⏳ Disparando em {i}s... (Ctrl+C pra cancelar)", end='\r')
+            print(f"⏳ Disparando em {i}s... (Ctrl+C pra cancelar)")
             await asyncio.sleep(1)
-        print()
 
     print(f"🚀 FASE 2 — Disparando com {len(prontas)} conta(s)...\n")
     await asyncio.gather(*(sniper(d, alvo) for d in prontas))
