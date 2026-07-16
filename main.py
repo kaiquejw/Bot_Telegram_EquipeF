@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 14
-MINUTO_ALVO = 7
+HORA_ALVO = 15
+MINUTO_ALVO = 26
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -65,6 +65,14 @@ CONTAS = [
         "secret_name": "SESSION_THAINA",
         "chat_id": -1004431335449,
         "msg": "Thaina X Daniel R2"
+    },
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    {
+        "nome": "Jane",
+        "secret_name": "SESSION_JANE",
+        "chat_id": -5187073706,
+        "msg": "Jane/Soberano Raio 3"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
