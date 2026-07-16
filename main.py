@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
 HORA_ALVO = 15
-MINUTO_ALVO = 26
+MINUTO_ALVO = 31
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -71,7 +71,7 @@ CONTAS = [
     {
         "nome": "Jane",
         "secret_name": "SESSION_JANE",
-        "chat_id": -5187073706,
+        "chat_id": -5451747541,
         "msg": "Jane/Soberano Raio 3"
     },
 
