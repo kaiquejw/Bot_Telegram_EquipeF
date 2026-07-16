@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 20
-MINUTO_ALVO = 49
+HORA_ALVO = 21
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -39,7 +39,7 @@ CONTAS = [
     {
         "nome": "Katia",
         "secret_name": "SESSION_KATIA",
-        "chat_id": -5117474448,
+        "chat_id": -1003993735474,
         "msg": "Katia pantanal r2 laudo"
     },
 
