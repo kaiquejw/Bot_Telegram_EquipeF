@@ -21,12 +21,12 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
 
 # ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
-HORA_ALVO = 21
-MINUTO_ALVO = 0
+HORA_ALVO = 11
+MINUTO_ALVO = 46
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.03
+LAUNCH_INTERVAL = 0.025
 DESISTIR_APOS_S = 120
 
 # Tempo pra você apertar Ctrl+C e corrigir se alguma conta falhar.
@@ -37,10 +37,10 @@ CONTAS = [
 
         #  21h00 Senha Grupo Bate Volta -1003993735474
     {
-        "nome": "Katia",
-        "secret_name": "SESSION_KATIA",
-        "chat_id": -1003993735474,
-        "msg": "Katia pantanal r2 laudo"
+        "nome": "Kaique",
+        "secret_name": "SESSION_KAIQUE",
+        "chat_id": -5186073583,
+        "msg": "teste "
     },
 
 ]
