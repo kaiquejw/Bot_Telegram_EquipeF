@@ -18,19 +18,18 @@ from telethon.errors import (
 API_ID = int(os.environ.get('TELEGRAM_API_ID'))
 API_HASH = os.environ.get('TELEGRAM_API_HASH')
 
-TZ = ZoneInfo("America/Sao_Paulo")  # crava horário de Brasília
+TZ = ZoneInfo("America/Sao_Paulo")  
 
-# ⚠️ AJUSTE PARA O DIA DA SENHA ⚠️
+
 HORA_ALVO = 13
-MINUTO_ALVO = 43
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
 LAUNCH_INTERVAL = 0.025
 DESISTIR_APOS_S = 120
 
-# Tempo pra você apertar Ctrl+C e corrigir se alguma conta falhar.
-# Se todas conectarem, esse countdown NÃO aparece — vai direto.
+
 AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
