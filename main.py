@@ -21,12 +21,12 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 13
-MINUTO_ALVO = 47
+HORA_ALVO = 16
+MINUTO_ALVO = 44
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.025
+LAUNCH_INTERVAL = 0.04
 DESISTIR_APOS_S = 120
 
 
@@ -34,13 +34,69 @@ AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
 
-        #  21h00 Senha Grupo Bate Volta -1003993735474
+        #  19h30 Senha normal impar vila independência -1003533574600
     {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,
-        "msg": "teste "
+        "nome": "Thayna",
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R5 X C7 Marcos"
     },
+
+        #  20h00 Senha Normal -1003252592404
+    {
+        "nome": "Gessiane",
+        "secret_name": "SESSION_GESSIANE",
+        "chat_id": -5279282857,
+        "msg": "Gessiane x sonata PV 3 (N)"
+    },
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -5108358245,
+    #    "msg": "Juliana/Jota/R3"
+    #},
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #{
+    #    "nome": "JulianaGALAO",
+    #    "secret_name": "SESSION_JULIANAGALAO",
+    #    "chat_id": -5330759829,
+    #    "msg": "Juliana x galão R5"
+    #},
+
+        #  21h00 Senha Grupo Bate Volta -1003993735474
+    #{
+    #    "nome": "Kaique",
+    #    "secret_name": "SESSION_KAIQUE",
+    #    "chat_id": -5186073583,
+    #    "msg": "teste "
+    #},
+
+        #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
+    #{
+    #    "nome": "Rafa",
+    #    "secret_name": "SESSION_RAFA",
+    #    "chat_id": -5230687258,
+    #    "msg": "Rafaela X da morte r3"
+    #},
+
+        #  19h00 Senha Normal (Dobra) 19:00 HS  | -1004417252531
+    #{
+    #    "nome": "Isabella",
+    #    "secret_name": "SESSION_ISABELLA",
+    #    "chat_id": -5174570129,
+    #    "msg": "Isa/ NK R3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Viviane",
+    #    "secret_name": "SESSION_VIVIANE",
+    #    "chat_id": -5107863814,
+    #    "msg": "Viviane/coelho raio 3"
+    #},
 
 ]
 
