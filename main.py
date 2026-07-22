@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 30
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,21 +34,14 @@ AGUARDAR_CONFIRMACAO_S = 15
 
 CONTAS = [
 
-        #  19h30 Senha normal impar vila independência -1003533574600
-    {
-        "nome": "Thayna",
-        "secret_name": "SESSION_THAYNA",
-        "chat_id": -1003533574600,
-        "msg": "Thayna R5 X C7 Marcos"
-    },
 
         #  20h00 NORMAL E KM OFICIAL BRASIL 🇧🇷 -1003724384898
-    #{
-    #    "nome": "Gessiane",
-    #    "secret_name": "SESSION_GESSIANE",
-    #    "chat_id": -5279282857,
-    #    "msg": "Gessiane x sonata PV 3 (N)"
-    #},
+    {
+        "nome": "Gessiane",
+        "secret_name": "SESSION_GESSIANE",
+        "chat_id": -1003724384898,
+        "msg": "Gessiane x sonata PV 3 (N)"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
