@@ -36,7 +36,7 @@ CONTAS = [
         #  21h00 Senha Grupo Bate Volta -1003993735474
     {
         "nome": "Katia",
-        "secret_name": "SESSION_VIVIANE",
+        "secret_name": "SESSION_KATIA",
         "chat_id": -5117474448,
         "msg": "Katia pantanal r2 laudo"
     },
