@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 19
-MINUTO_ALVO = 0
+MINUTO_ALVO = 12
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,29 +33,14 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
-    {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -1004417252531,
-        "msg": "Rafaela X da morte r3"
-    },
-
-        #  19h00 Senha Normal (Dobra) 19:00 HS  | -1004417252531
-    {
-        "nome": "Isabella",
-        "secret_name": "SESSION_ISABELLA",
-        "chat_id": -1004417252531,
-        "msg": "Isa/ NK R3"
-    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Scarllet",
-    #    "secret_name": "SESSION_SCARLLET",
-    #    "chat_id": -5123879477,
-    #    "msg": "Scarlett/Dellamora raio 4"
-    #},
+    {
+        "nome": "Scarllet",
+        "secret_name": "SESSION_SCARLLET",
+        "chat_id": -5123879477,
+        "msg": "Scarlett/Dellamora raio 4"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     #{
