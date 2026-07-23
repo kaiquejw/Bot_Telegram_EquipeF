@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 16
-MINUTO_ALVO = 10
+HORA_ALVO = 19
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,75 +33,11 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Adrielli",
-        "secret_name": "SESSION_ADRIELLI",
-        "chat_id": -5176706740,
-        "msg": "Adrielli x Carlos r1"
-    },
-
-        #  20h00 Grupo senha normal -1003601357589
-    {
-        "nome": "Ivete",
-        "secret_name": "SESSION_IVETE",
-        "chat_id": -5124583946,
-        "msg": "Nega /erik R 5"
-    },
-
-        #  20h20 Senha normal -1003875645355
-    {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -4801139096,
-        "msg": "Mônica x jaçanã G11"
-    },
-
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -4992766314,
-        "msg": "Miria/adriano raio 3"
-    },
-
-        #  20h00 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Viviane",
-        "secret_name": "SESSION_VIVIANE",
-        "chat_id": -5107863814,
-        "msg": "Viviane/coelho raio 3"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -5108358245,
-        "msg": "Juliana/Jota/R3"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "JulianaGALAO",
-        "secret_name": "SESSION_JULIANAGALAO",
-        "chat_id": -5330759829,
-        "msg": "Juliana x galão R5"
-    },
-
-        #  21h00 Senha Grupo Bate Volta -1003993735474
-    #{
-    #    "nome": "Kaique",
-    #    "secret_name": "SESSION_KAIQUE",
-    #    "chat_id": -5186073583,
-    #    "msg": "teste "
-    #},
-
         #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
     {
         "nome": "Rafa",
         "secret_name": "SESSION_RAFA",
-        "chat_id": -5230687258,
+        "chat_id": -1004417252531,
         "msg": "Rafaela X da morte r3"
     },
 
@@ -109,9 +45,73 @@ CONTAS = [
     {
         "nome": "Isabella",
         "secret_name": "SESSION_ISABELLA",
-        "chat_id": -5174570129,
+        "chat_id": -1004417252531,
         "msg": "Isa/ NK R3"
     },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #{
+    #    "nome": "Scarllet",
+    #    "secret_name": "SESSION_SCARLLET",
+    #    "chat_id": -5123879477,
+    #    "msg": "Scarlett/Dellamora raio 4"
+    #},
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #{
+    #    "nome": "JulianaGALAO",
+    #    "secret_name": "SESSION_JULIANAGALAO",
+    #    "chat_id": -1002443109385,
+    #    "msg": "Juliana x galão R5"
+    #},
+
+        #  20h00 Grupo senha normal -1003601357589
+    #{
+    #    "nome": "Ivete",
+    #    "secret_name": "SESSION_IVETE",
+    #    "chat_id": -1003601357589,
+    #    "msg": "Nega /erik R 5"
+    #},
+
+        #  20h20 Senha normal -1003875645355
+    #{
+    #    "nome": "Monica",
+    #    "secret_name": "SESSION_MONICA",
+    #    "chat_id": -1003875645355,
+    #    "msg": "Mônica x jaçanã G11"
+    #},
+
+        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+    #{
+    #    "nome": "Miriam",
+    #    "secret_name": "SESSION_MIRIAM",
+    #    "chat_id": -1002459968766,
+    #    "msg": "Miria/adriano raio 3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Viviane",
+    #    "secret_name": "SESSION_VIVIANE",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Viviane/coelho raio 3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Juliana/Jota/R3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Adrielli",
+    #    "secret_name": "SESSION_ADRIELLI",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Adrielli x Carlos r1"
+    #},
 
 ]
 
