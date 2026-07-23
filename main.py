@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 35
+MINUTO_ALVO = 38
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
