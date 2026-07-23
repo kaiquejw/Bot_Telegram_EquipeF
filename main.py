@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 12
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -38,25 +38,25 @@ CONTAS = [
     {
         "nome": "Scarllet",
         "secret_name": "SESSION_SCARLLET",
-        "chat_id": -5123879477,
+        "chat_id": -1002443109385,
         "msg": "Scarlett/Dellamora raio 4"
     },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "JulianaGALAO",
-    #    "secret_name": "SESSION_JULIANAGALAO",
-    #    "chat_id": -1002443109385,
-    #    "msg": "Juliana x galão R5"
-    #},
+    {
+        "nome": "JulianaGALAO",
+        "secret_name": "SESSION_JULIANAGALAO",
+        "chat_id": -1002443109385,
+        "msg": "Juliana x galão R5"
+    },
 
         #  20h00 Grupo senha normal -1003601357589
-    #{
-    #    "nome": "Ivete",
-    #    "secret_name": "SESSION_IVETE",
-    #    "chat_id": -1003601357589,
-    #    "msg": "Nega /erik R 5"
-    #},
+    {
+        "nome": "Ivete",
+        "secret_name": "SESSION_IVETE",
+        "chat_id": -1003601357589,
+        "msg": "Nega /erik R 5"
+    },
 
         #  20h20 Senha normal -1003875645355
     #{
@@ -64,14 +64,6 @@ CONTAS = [
     #    "secret_name": "SESSION_MONICA",
     #    "chat_id": -1003875645355,
     #    "msg": "Mônica x jaçanã G11"
-    #},
-
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    #{
-    #    "nome": "Miriam",
-    #    "secret_name": "SESSION_MIRIAM",
-    #    "chat_id": -1002459968766,
-    #    "msg": "Miria/adriano raio 3"
     #},
 
         #  20h30 Senha Grupo Normal -1003927816412
