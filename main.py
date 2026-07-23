@@ -30,11 +30,10 @@ LAUNCH_INTERVAL = 0.035
 DESISTIR_APOS_S = 120
 
 
-AGUARDAR_CONFIRMACAO_S = 90
 
 CONTAS = [
 
-        #  20h00 Senha Grupo Normal -1003927816412
+        #  20h30 Senha Grupo Normal -1003927816412
     {
         "nome": "Adrielli",
         "secret_name": "SESSION_ADRIELLI",
@@ -303,9 +302,8 @@ async def main():
         return
 
     if falhas:
-        for i in range(AGUARDAR_CONFIRMACAO_S, 0, -1):
-            print(f"⏳ Disparando em {i}s... (Ctrl+C pra cancelar)")
-            await asyncio.sleep(1)
+        print(f"🛑 ENCERRANDO — corrija as contas acima e reinicie o bot.")
+        return
 
     print(f"🚀 FASE 2 — Disparando com {len(prontas)} conta(s)...\n")
     await asyncio.gather(*(sniper(d, alvo) for d in prontas))
