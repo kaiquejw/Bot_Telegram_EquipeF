@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 21
-MINUTO_ALVO = 00
+HORA_ALVO = 18
+MINUTO_ALVO = 36
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,13 +33,70 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  21h00 Senha Grupo Bate Volta -1003993735474
+        #  20h30 SENHA PREFERENCIAL -1003154989490
     {
-        "nome": "Katia",
-        "secret_name": "SESSION_KATIA",
-        "chat_id": -1003993735474,
-        "msg": "Katia pantanal r2 laudo"
+        "nome": "Sara",
+        "secret_name": "SESSION_SARA",
+        "chat_id": -5215567369,
+        "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
     },
+
+
+        #  19h00 P3 Anexo Normal -1002912888763
+    #{
+    #    "nome": "Giovana1",
+    #    "secret_name": "SESSION_GIOVANA",
+    #    "chat_id": -5299568827,
+    #    "msg": "Bruna x João Victor 4x2 Giovana x João Victor 4x2"
+    #},
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #{
+    #    "nome": "Thaina",
+    #    "secret_name": "SESSION_THAINA",
+    #    "chat_id": -1004431335449,
+    #    "msg": "Thaina X Daniel R2"
+    #},
+
+        #  20h20 Senha normal -1003875645355
+    #{
+    #    "nome": "Monica",
+    #    "secret_name": "SESSION_MONICA",
+    #    "chat_id": -4801139096,
+    #    "msg": "Mônica x jaçanã G11"
+    #},
+
+        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+    #{
+    #    "nome": "Miriam",
+    #    "secret_name": "SESSION_MIRIAM",
+    #    "chat_id": -4992766314,
+    #    "msg": "Miria/adriano raio 3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -5108358245,
+    #    "msg": "Juliana/Jota/R3"
+    #},
+
+        #  20h30 Senha Grupo Normal -1003927816412
+    #{
+    #    "nome": "Jane",
+    #    "secret_name": "SESSION_JANE",
+    #    "chat_id": -5451747541,
+    #    "msg": "Jane/Soberano Raio 3"
+    #},
+
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    #{
+    #    "nome": "Anne",
+    #    "secret_name": "SESSION_ANNE",
+    #    "chat_id": -1004440363120,
+    #    "msg": "Anny x JB R2"
+    #},
 
 ]
 
