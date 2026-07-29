@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 30
+HORA_ALVO = 17
+MINUTO_ALVO = 40
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,13 +33,22 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h30 SENHA PREFERENCIAL -1003154989490
+
+        #  19h30 Senha normal impar vila independência -1003533574600
     {
-        "nome": "Sara",
-        "secret_name": "SESSION_SARA",
-        "chat_id": -1003154989490,
-        "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
+        "nome": "Thayna",
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R5 X C7 Marcos"
     },
+
+        #  NAO SEI HORARIO TEM QUE CONFIRMAR  GRUPO NORMAL -1003601806812
+    #{
+    #    "nome": "Paola",
+    #    "secret_name": "SESSION_PAOLA",
+    #    "chat_id": -5516360409,
+    #    "msg": "Paola mulher Matheus raio 4 cela 5"
+    #},
 
 
         #  19h00 P3 Anexo Normal -1002912888763
@@ -48,6 +57,14 @@ CONTAS = [
     #    "secret_name": "SESSION_GIOVANA",
     #    "chat_id": -5299568827,
     #    "msg": "Bruna x João Victor 4x2 Giovana x João Victor 4x2"
+    #},
+
+        #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
+    #{
+    #    "nome": "Shayany",
+    #    "secret_name": "SESSION_SHAYANY",
+    #    "chat_id": -5451789283,
+    #    "msg": "Shayany x Gustavo R3"
     #},
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
@@ -96,6 +113,14 @@ CONTAS = [
     #    "secret_name": "SESSION_ANNE",
     #    "chat_id": -1004440363120,
     #    "msg": "Anny x JB R2"
+    #},
+
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    #{
+    #    "nome": "Tamires",
+    #    "secret_name": "SESSION_TAMIRES",
+    #    "chat_id": -5391035776,
+    #    "msg": "Tamires x Rodrigo R 3 (gestante)"
     #},
 
 ]
