@@ -58,6 +58,14 @@ CONTAS = [
         "msg": "Bruna x João Victor 4x2\nGiovana x João Victor 4x2"
     },
 
+        #  20h00 Grupo senha normal -1003601357589
+    {
+        "nome": "Karoline",
+        "secret_name": "SESSION_KAROLINE",
+        "chat_id": -5274565803,
+        "msg": "Karoline x Da guerra R4 - criança"
+    },
+
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
     {
         "nome": "Shayany",
