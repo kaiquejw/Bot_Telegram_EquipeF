@@ -21,11 +21,11 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 17
-MINUTO_ALVO = 34
+HORA_ALVO = 19
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
-ANTECIPACAO_S = 0.0
+ANTECIPACAO_S = 0.010
 LAUNCH_INTERVAL = 0.030
 DESISTIR_APOS_S = 120
 
@@ -37,7 +37,7 @@ CONTAS = [
     {
         "nome": "Thayna",
         "secret_name": "SESSION_THAYNA",
-        "chat_id": -5188593476,
+        "chat_id": -1003533574600,
         "msg": "Thayna R5 X C7 Marcos"
     },
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
