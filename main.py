@@ -21,11 +21,11 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 17
+MINUTO_ALVO = 32
 SEGUNDO_ALVO = 0
 
-ANTECIPACAO_S = 0.0
+ANTECIPACAO_S = 0.010
 LAUNCH_INTERVAL = 0.030
 DESISTIR_APOS_S = 120
 
@@ -33,22 +33,20 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
+        #  19h30 Senha normal impar vila independência | -1003533574600
     {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,
-        "msg": "Anny x JB R2"
+        "nome": "Thayna",
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R5 X C7 Marcos"
     },
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -1003552682244,
-        "msg": "Tamires x Rodrigo R 3 (gestante)"
-    },
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    #{
+    #    "nome": "Beatriz",
+    #    "secret_name": "SESSION_BEATRIZ",
+    #    "chat_id": -5385623346,
+    #    "msg": "Beatriz x Riquelmy R7"
+    #},
 
 ]
 
