@@ -33,29 +33,6 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Paola",
-        "secret_name": "SESSION_PAOLA",
-        "chat_id": -5516360409,
-        "msg": "Paola mulher Matheus raio 4 cela 5 dobra domingo"
-    },
-
-        #  GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Luciane",
-        "secret_name": "SESSION_LUCIANE",
-        "chat_id": -5323628267,
-        "msg": "Luciane x Felipe R 4 c 3"
-    },
-
-        #  GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    {
-        "nome": "Jenniffer",
-        "secret_name": "SESSION_JENNIFER",
-        "chat_id": -5093907746,
-        "msg": "Jennifer x Wanderson 5x8"
-    },
 
         #  19h00 P3 Anexo Normal -1002912888763
     {
@@ -73,20 +50,28 @@ CONTAS = [
         "msg": "Rafaela X da morte r3"
     },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+        #  20h00 GRUPO NORMAL. -1004339638597
     {
-        "nome": "Beatriz",
-        "secret_name": "SESSION_BEATRIZ",
-        "chat_id": -5385623346,
-        "msg": "Beatriz x Riquelmy R7"
+        "nome": "Luciane",
+        "secret_name": "SESSION_LUCIANE",
+        "chat_id": -5323628267,
+        "msg": "Luciane x Felipe R 4 c 3"
     },
 
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+        #  20h00 Grupo de senha CPP Pacaembu -1002394231597
     {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -4992766314,
-        "msg": "Miria/adriano raio 3"
+        "nome": "Lais",
+        "secret_name": "SESSION_LAIS",
+        "chat_id": -5216759738,
+        "msg": "Laís x jogador ala 1 a dobra"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Mara",
+        "secret_name": "SESSION_MARA",
+        "chat_id": -5348480871,
+        "msg": "Mara e Alex raio 2 cela 5"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
@@ -111,38 +96,6 @@ CONTAS = [
         "secret_name": "SESSION_ANDREIA",
         "chat_id": -5465711250,
         "msg": "Andreia/Giovanna X Fagner Raio 1"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -5263208911,
-        "msg": "Luciana x Primavera R2"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -5405596646,
-        "msg": "Priscila x Andre raio 4"
-    },
-
-        #  Grupo de senha CPP Pacaembu -1002394231597
-    {
-        "nome": "Lais",
-        "secret_name": "SESSION_LAIS",
-        "chat_id": -5216759738,
-        "msg": "Laís x jogador ala 1 a dobra"
-    },
-
-        #  confirmar ainda
-    {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -5216542458,
-        "msg": "Larissa x Lucas Raio 7"
     },
 
 ]
