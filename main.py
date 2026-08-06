@@ -21,7 +21,7 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
@@ -34,45 +34,30 @@ DESISTIR_APOS_S = 120
 CONTAS = [
 
 
-        #  19h00 P3 Anexo Normal -1002912888763
-    {
-        "nome": "Giovana",
-        "secret_name": "SESSION_GIOVANA",
-        "chat_id": -1002912888763,
-        "msg": "Bruna x João Victor 4x2\nGiovana x João Victor 4x2"
-    },
-
-        #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
-    {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -1004417252531,
-        "msg": "Rafaela X da morte r3"
-    },
 
         #  20h00 GRUPO NORMAL. -1004339638597
-    #{
-    #    "nome": "Luciane",
-    #    "secret_name": "SESSION_LUCIANE",
-    #    "chat_id": -1004339638597,
-    #    "msg": "Luciane x Felipe R 4 c 3"
-    #},
+    {
+        "nome": "Luciane",
+        "secret_name": "SESSION_LUCIANE",
+        "chat_id": -1004339638597,
+        "msg": "Luciane x Felipe R 4 c 3"
+    },
 
         #  20h00 Grupo de senha CPP Pacaembu -1002394231597
-    #{
-    #    "nome": "Lais",
-    #    "secret_name": "SESSION_LAIS",
-    #    "chat_id": -1002394231597,
-    #    "msg": "Laís x jogador ala 1 a dobra"
-    #},
+    {
+        "nome": "Lais",
+        "secret_name": "SESSION_LAIS",
+        "chat_id": -1002394231597,
+        "msg": "Laís x jogador ala 1 a dobra"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Mara",
-    #    "secret_name": "SESSION_MARA",
-    #    "chat_id": -1002443109385,
-    #    "msg": "Mara e Alex raio 2 cela 5"
-    #},
+    {
+        "nome": "Mara",
+        "secret_name": "SESSION_MARA",
+        "chat_id": -1002443109385,
+        "msg": "Mara e Alex raio 2 cela 5"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
