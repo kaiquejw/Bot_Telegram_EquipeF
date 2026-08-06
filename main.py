@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,53 +35,31 @@ CONTAS = [
 
 
 
-        #  20h00 GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Luciane",
-        "secret_name": "SESSION_LUCIANE",
-        "chat_id": -1004339638597,
-        "msg": "Luciane x Felipe R 4 c 3"
-    },
 
-        #  20h00 Grupo de senha CPP Pacaembu -1002394231597
-    {
-        "nome": "Lais",
-        "secret_name": "SESSION_LAIS",
-        "chat_id": -1002394231597,
-        "msg": "Laís x jogador ala 1 a dobra"
-    },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Mara",
-        "secret_name": "SESSION_MARA",
-        "chat_id": -1002443109385,
-        "msg": "Mara e Alex raio 2 cela 5"
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -1003927816412,
+        "msg": "Juliana/Jota/R3"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Juliana/Jota/R3"
-    #},
+    {
+        "nome": "Angelica",
+        "secret_name": "SESSION_ANGELICA",
+        "chat_id": -1003927816412,
+        "msg": "Angelica x tales r3"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Angelica",
-    #    "secret_name": "SESSION_ANGELICA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Angelica x tales r3"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Andreia",
-    #    "secret_name": "SESSION_ANDREIA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Andreia/Giovanna X Fagner Raio 1"
-    #},
+    {
+        "nome": "Andreia",
+        "secret_name": "SESSION_ANDREIA",
+        "chat_id": -1003927816412,
+        "msg": "Andreia/Giovanna X Fagner Raio 1"
+    },
 
 ]
 
