@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 13
-MINUTO_ALVO = 32
+HORA_ALVO = 15
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,15 +33,15 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  
+        #  GRUPO NORMAL. -1004339638597
     {
         "nome": "Paola",
         "secret_name": "SESSION_PAOLA",
         "chat_id": -5516360409,
-        "msg": "Paola mulher Matheus raio 4 cela 5"
+        "msg": "Paola mulher Matheus raio 4 cela 5 dobra domingo"
     },
 
-        #  
+        #  GRUPO NORMAL. -1004339638597
     {
         "nome": "Luciane",
         "secret_name": "SESSION_LUCIANE",
@@ -62,7 +62,7 @@ CONTAS = [
         "nome": "Giovana",
         "secret_name": "SESSION_GIOVANA",
         "chat_id": -5299568827,
-        "msg": "Bruna x João Victor 4x2 Giovana x João Victor 4x2"
+        "msg": "Bruna x João Victor 4x2\nGiovana x João Victor 4x2"
     },
 
         #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
@@ -82,12 +82,12 @@ CONTAS = [
     },
 
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    #{
-    #    "nome": "Miriam",
-    #    "secret_name": "SESSION_MIRIAM",
-    #    "chat_id": -4992766314,
-    #    "msg": "Miria/adriano raio 3"
-    #},
+    {
+        "nome": "Miriam",
+        "secret_name": "SESSION_MIRIAM",
+        "chat_id": -4992766314,
+        "msg": "Miria/adriano raio 3"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     {
@@ -130,19 +130,19 @@ CONTAS = [
     },
 
         #  Grupo de senha CPP Pacaembu -1002394231597
-    #{
-    #    "nome": "Lais",
-    #    "secret_name": "SESSION_LAIS",
-    #    "chat_id": -5216759738,
-    #    "msg": "Laís x jogador ala 1 a dobra"
-    #},
+    {
+        "nome": "Lais",
+        "secret_name": "SESSION_LAIS",
+        "chat_id": -5216759738,
+        "msg": "Laís x jogador ala 1 a dobra"
+    },
 
         #  confirmar ainda
     {
         "nome": "Larissa",
         "secret_name": "SESSION_LARISSA",
         "chat_id": -5216542458,
-        "msg": "Larissa x Lucas Raio 2"
+        "msg": "Larissa x Lucas Raio 7"
     },
 
 ]
