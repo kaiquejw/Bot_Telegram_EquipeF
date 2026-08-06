@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 17
-MINUTO_ALVO = 30
+HORA_ALVO = 19
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -38,7 +38,7 @@ CONTAS = [
     {
         "nome": "Giovana",
         "secret_name": "SESSION_GIOVANA",
-        "chat_id": -5299568827,
+        "chat_id": -1002912888763,
         "msg": "Bruna x João Victor 4x2\nGiovana x João Victor 4x2"
     },
 
@@ -46,57 +46,57 @@ CONTAS = [
     {
         "nome": "Rafa",
         "secret_name": "SESSION_RAFA",
-        "chat_id": -5230687258,
+        "chat_id": -1004417252531,
         "msg": "Rafaela X da morte r3"
     },
 
         #  20h00 GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Luciane",
-        "secret_name": "SESSION_LUCIANE",
-        "chat_id": -5323628267,
-        "msg": "Luciane x Felipe R 4 c 3"
-    },
+    #{
+    #    "nome": "Luciane",
+    #    "secret_name": "SESSION_LUCIANE",
+    #    "chat_id": -1004339638597,
+    #    "msg": "Luciane x Felipe R 4 c 3"
+    #},
 
         #  20h00 Grupo de senha CPP Pacaembu -1002394231597
-    {
-        "nome": "Lais",
-        "secret_name": "SESSION_LAIS",
-        "chat_id": -5216759738,
-        "msg": "Laís x jogador ala 1 a dobra"
-    },
+    #{
+    #    "nome": "Lais",
+    #    "secret_name": "SESSION_LAIS",
+    #    "chat_id": -1002394231597,
+    #    "msg": "Laís x jogador ala 1 a dobra"
+    #},
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Mara",
-        "secret_name": "SESSION_MARA",
-        "chat_id": -5348480871,
-        "msg": "Mara e Alex raio 2 cela 5"
-    },
+    #{
+    #    "nome": "Mara",
+    #    "secret_name": "SESSION_MARA",
+    #    "chat_id": -1002443109385,
+    #    "msg": "Mara e Alex raio 2 cela 5"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -5108358245,
-        "msg": "Juliana/Jota/R3"
-    },
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Juliana/Jota/R3"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Angelica",
-        "secret_name": "SESSION_ANGELICA",
-        "chat_id": -5174241010,
-        "msg": "Angelica x tales r3"
-    },
+    #{
+    #    "nome": "Angelica",
+    #    "secret_name": "SESSION_ANGELICA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Angelica x tales r3"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Andreia",
-        "secret_name": "SESSION_ANDREIA",
-        "chat_id": -5465711250,
-        "msg": "Andreia/Giovanna X Fagner Raio 1"
-    },
+    #{
+    #    "nome": "Andreia",
+    #    "secret_name": "SESSION_ANDREIA",
+    #    "chat_id": -1003927816412,
+    #    "msg": "Andreia/Giovanna X Fagner Raio 1"
+    #},
 
 ]
 
