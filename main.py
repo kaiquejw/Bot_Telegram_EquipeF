@@ -130,12 +130,12 @@ CONTAS = [
     },
 
         #  Grupo de senha CPP Pacaembu -1002394231597
-    {
-        "nome": "Lais",
-        "secret_name": "SESSION_LAIS",
-        "chat_id": -5216759738,
-        "msg": "Laís x jogador ala 1 a dobra"
-    },
+    #{
+    #    "nome": "Lais",
+    #    "secret_name": "SESSION_LAIS",
+    #    "chat_id": -5216759738,
+    #    "msg": "Laís x jogador ala 1 a dobra"
+    #},
 
         #  confirmar ainda
     {
