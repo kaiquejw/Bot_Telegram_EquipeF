@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 14
-MINUTO_ALVO = 58
+HORA_ALVO = 18
+MINUTO_ALVO = 23
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,7 +34,7 @@ DESISTIR_APOS_S = 120
 CONTAS = [
 
 
-        #  TERCA FEIRA AS 21h00 📍GRUPO NORMAL LADO PAR📍 -1003623857063
+        #  TERCA FEIRA AS 21h00 GP NORMAL LADO PAR 📍 -1003767250314
     {
         "nome": "Isabelli",
         "secret_name": "SESSION_ISABELLI",
