@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 11
-MINUTO_ALVO = 13
+HORA_ALVO = 14
+MINUTO_ALVO = 57
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,47 +34,13 @@ DESISTIR_APOS_S = 120
 CONTAS = [
 
 
-        #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
+        #  TERCA FEIRA AS 21h00 📍GRUPO NORMAL LADO PAR📍 -1003623857063
     {
-        "nome": "Isabella",
-        "secret_name": "SESSION_ISABELLA",
-        "chat_id": -5174570129,
-        "msg": "Isa/ NK R3"
+        "nome": "Isabelli",
+        "secret_name": "SESSION_ISABELLI",
+        "chat_id": -5389945073,
+        "msg": "Isabelli 8x7 Jose"
     },
-
-        #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
-    {
-        "nome": "Isa",
-        "secret_name": "SESSION_ISA",
-        "chat_id": -5174570129,
-        "msg": "Isa/ NK R3 teste"
-    },
-
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Juliana/Jota/R3"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Angelica",
-    #    "secret_name": "SESSION_ANGELICA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Angelica x tales r3"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Andreia",
-    #    "secret_name": "SESSION_ANDREIA",
-    # 
-    #    "chat_id": -1003927816412,
-    #    "msg": "Andreia/Giovanna X Fagner Raio 1"
-    #},
 
 ]
 
