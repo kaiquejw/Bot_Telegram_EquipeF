@@ -163,14 +163,6 @@ CONTAS = [
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -5391035776,
-        "msg": "Tamires x Rodrigo R 3 (gestante)"
-    },
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
         "nome": "Anne",
         "secret_name": "SESSION_ANNE",
         "chat_id": -1004440363120,
