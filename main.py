@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 39
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,26 +35,26 @@ CONTAS = [
 
 
         #  20h00 SENHA NORMAL PARAGUAI 🇵🇾 -1003780200945
-    #{
-    #    "nome": "Caroline",
-    #    "secret_name": "SESSION_CAROLINE",
-    #    "chat_id": -1003780200945,
-    #    "msg": "Caroline xRuan Pv6 (N)"
-    #},
+    {
+        "nome": "Caroline",
+        "secret_name": "SESSION_CAROLINE",
+        "chat_id": -1003780200945,
+        "msg": "Caroline xRuan Pv6 (N)"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Sabrina",
-    #    "secret_name": "SESSION_SABRINA",
-    #    "chat_id": -1002443109385,
-    #    "msg": "Sabrina x Léo R7"
-    #},
+    {
+        "nome": "Sabrina",
+        "secret_name": "SESSION_SABRINA",
+        "chat_id": -1002443109385,
+        "msg": "Sabrina x Léo R7"
+    },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385 CONFIRMAR ELA AINDA
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
         "nome": "Beatrizz",
         "secret_name": "SESSION_BEATRIZZ",
-        "chat_id": -5401410333,
+        "chat_id": -1002443109385,
         "msg": "Beatriz X Wilson raio 1"
     },
 
