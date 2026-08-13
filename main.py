@@ -59,18 +59,10 @@ CONTAS = [
 
         #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
     {
-        "nome": "Isabella",
-        "secret_name": "SESSION_ISABELLA",
-        "chat_id": -5174570129,
-        "msg": "Isa/ NK R3"
-    },
-
-        #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
-    {
         "nome": "Isa",
         "secret_name": "SESSION_ISA",
         "chat_id": -5174570129,
-        "msg": "Isa/ NK R3 teste"
+        "msg": "Isa/ NK R3"
     },
 
         #  20h00 SENHA NORMAL PARAGUAI 🇵🇾 -1003780200945
