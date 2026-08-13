@@ -34,45 +34,21 @@ DESISTIR_APOS_S = 120
 CONTAS = [
 
 
-        #  20h00 SENHA NORMAL PARAGUAI 🇵🇾 -1003780200945
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Caroline",
-        "secret_name": "SESSION_CAROLINE",
-        "chat_id": -1003780200945,
-        "msg": "Caroline xRuan Pv6 (N)"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Sabrina",
-        "secret_name": "SESSION_SABRINA",
-        "chat_id": -1002443109385,
-        "msg": "Sabrina x Léo R7"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Beatrizz",
-        "secret_name": "SESSION_BEATRIZZ",
-        "chat_id": -1002443109385,
-        "msg": "Beatriz X Wilson raio 1"
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -1003927816412,
+        "msg": "Juliana/Jota/R3"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Juliana/Jota/R3"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Michele",
-    #    "secret_name": "SESSION_MICHELE",
-    #    "chat_id": -1003927816412,
-    #    "msg": "Michele x Paquistão raio 3"
-    #},
+    {
+        "nome": "Michele",
+        "secret_name": "SESSION_MICHELE",
+        "chat_id": -1003927816412,
+        "msg": "Michele x Paquistão raio 3"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     #{
