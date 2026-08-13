@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 14
-MINUTO_ALVO = 8
+HORA_ALVO = 15
+MINUTO_ALVO = 40
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,20 +33,12 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  confirmar horario GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Paola",
-        "secret_name": "SESSION_PAOLA",
-        "chat_id": -5516360409,
-        "msg": "Paola mulher Matheus raio 4 cela 5"
-    },
-
-        #  cONFERIR HORARIO P3 Anexo Normal -1002912888763
+        #  19h00 P3 Anexo Normal -1002912888763
     {
         "nome": "Geovana",
         "secret_name": "SESSION_GEOVANA",
         "chat_id": -5299568827,
-        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2"
+        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2" 
     },
 
         #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
@@ -57,28 +49,12 @@ CONTAS = [
         "msg": "Rafaela X da morte r3"
     },
 
-        #  19h00 Senha Normal (Dobra) 19:00 HS -100441725253
-    {
-        "nome": "Isa",
-        "secret_name": "SESSION_ISA",
-        "chat_id": -5174570129,
-        "msg": "Isa/ NK R3"
-    },
-
         #  20h00 SENHA NORMAL PARAGUAI 🇵🇾 -1003780200945
     {
         "nome": "Caroline",
         "secret_name": "SESSION_CAROLINE",
         "chat_id": -5428912737,
         "msg": "Caroline xRuan Pv6 (N)"
-    },
-
-        #  20h00 Grupo senha normal -1003601357589
-    {
-        "nome": "Nina",
-        "secret_name": "SESSION_NINA",
-        "chat_id": -5481984051,
-        "msg": "Nina x Dg R6"
     },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
@@ -97,52 +73,12 @@ CONTAS = [
         "msg": "Joyce /Guilherme R7 C5"
     },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Thaina",
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1004431335449,
-        "msg": "Thaina X Daniel R2"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Karine",
-        "secret_name": "SESSION_KARINE",
-        "chat_id": -5503988902,
-        "msg": "Karine / Raridade R 8"
-    },
-
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -1002459968766,
-        "msg": "Miria/adriano raio 3"
-    },
-
         #  20h30 Senha Grupo Normal -1003927816412
     {
         "nome": "Juliana",
         "secret_name": "SESSION_JULIANA",
         "chat_id": -5108358245,
         "msg": "Juliana/Jota/R3"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -5405596646,
-        "msg": "Priscila x Andre raio 4"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Viviane",
-        "secret_name": "SESSION_VIVIANE",
-        "chat_id": -5107863814,
-        "msg": "Viviane/coelho raio 3"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
@@ -163,10 +99,10 @@ CONTAS = [
 
         #  20h45 Senha Grupo Preferencial -1003552682244  
     {
-        "nome": "VivianeBatore",
-        "secret_name": "SESSION_VIVIANEBATORE",
-        "chat_id": -5201161110,
-        "msg": "Viviane x batoré raio 2"
+        "nome": "Jaqueline",
+        "secret_name": "SESSION_JAQUELINE",
+        "chat_id": -5291105956,
+        "msg": "Jakeline x Daniel raio 3"
     },
 
 ]
