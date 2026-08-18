@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 18
-MINUTO_ALVO = 3
+MINUTO_ALVO = 4
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,10 +33,10 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h00 SENHA PREFERENCIAL -1003154989490
+        #  20h30 SENHA PREFERENCIAL -1003154989490
     {
         "nome": "Sara",
-        "secret_name": "SESSION_ANNE",
+        "secret_name": "SESSION_SARA",
         "chat_id": -5215567369,
         "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
     },
@@ -44,7 +44,7 @@ CONTAS = [
         #  21h00 GP NORMAL LADO PAR 📍 -1003767250314 
     {
         "nome": "Isabelli",
-        "secret_name": "SESSION_JAQUELINE",
+        "secret_name": "SESSION_ISABELLI",
         "chat_id": -5389945073,
         "msg": "Isabelli 8x7 Jose"
     },
