@@ -33,11 +33,11 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h30 SENHA PREFERENCIAL -1003154989490
+        #  20h30 SENHA Preferencial P1 (Novo ) -1003927390313
     {
         "nome": "Sara",
         "secret_name": "SESSION_SARA",
-        "chat_id": -1003154989490,
+        "chat_id": -1003927390313,
         "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
     },
 
