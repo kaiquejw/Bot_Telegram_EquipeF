@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 18
+MINUTO_ALVO = 3
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,20 +33,20 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
+        #  20h00 SENHA PREFERENCIAL -1003154989490
     {
-        "nome": "Anne",
+        "nome": "Sara",
         "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,
-        "msg": "Anny x JB R2"
+        "chat_id": -5215567369,
+        "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
     },
 
-        #  20h45 Senha Grupo Preferencial -1003552682244  
+        #  21h00 GP NORMAL LADO PAR 📍 -1003767250314 
     {
-        "nome": "Jaqueline",
+        "nome": "Isabelli",
         "secret_name": "SESSION_JAQUELINE",
-        "chat_id": -1003552682244,
-        "msg": "Jakeline x Daniel raio 3"
+        "chat_id": -5389945073,
+        "msg": "Isabelli 8x7 Jose"
     },
 
 ]
