@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 30
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,45 +33,21 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  20h30 Senha Grupo Normal -1003927816412
+        #  20h45 Senha Grupo Preferencial -1003552682244
     {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -1003927816412,
-        "msg": "Priscila x Andre raio 4"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -1003927816412,
-        "msg": "Juliana/Jota/R3"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Adrielli",
-        "secret_name": "SESSION_ADRIELLI",
-        "chat_id": -1003927816412,
-        "msg": "Adrielli x Carlos r1"
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1003552682244,
+        "msg": "Anny x JB R2"
     },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    #{
-    #    "nome": "Anne",
-    #    "secret_name": "SESSION_ANNE",
-    #    "chat_id": -1004440363120,
-    #    "msg": "Anny x JB R2"
-    #},
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    #{
-    #    "nome": "Branca",
-    #    "secret_name": "SESSION_BRANCA",
-    #    "chat_id": -5259905557,
-    #    "msg": "Branca x pp r6"
-    #},
+    {
+        "nome": "Branca",
+        "secret_name": "SESSION_BRANCA",
+        "chat_id": -1003552682244,
+        "msg": "Branca x pp r6"
+    },
 
         #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
     #{
