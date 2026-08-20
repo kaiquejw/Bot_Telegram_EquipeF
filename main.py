@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 12
-MINUTO_ALVO = 58
+HORA_ALVO = 17
+MINUTO_ALVO = 3
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -71,6 +71,14 @@ CONTAS = [
         "secret_name": "SESSION_LARISSA",
         "chat_id": -5216542458,
         "msg": "Larissa x Lucas Raio 7"
+    },
+
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Anice",
+        "secret_name": "SESSION_ANICE",
+        "chat_id": -5535715396,
+        "msg": "Anice x coveiro raio 4 dobra"
     },
 
         #  20h20 Senha normal -1003875645355
