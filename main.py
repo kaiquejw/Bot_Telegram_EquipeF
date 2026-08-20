@@ -21,13 +21,13 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
 LAUNCH_INTERVAL = 0.030
-DESISTIR_APOS_S = 120
+DESISTIR_APOS_S = 280
 
 
 
@@ -41,29 +41,22 @@ CONTAS = [
         "msg": "Paola mulher Matheus raio 4 cela 5 Dobra"
     },
 
-        #  19h00 P3 Anexo Normal -1002912888763
-    {
-        "nome": "Geovana",
-        "secret_name": "SESSION_GEOVANA",
-        "chat_id": -1002912888763,
-        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2"
-    },
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    #{
-    #    "nome": "Shayany",
-    #    "secret_name": "SESSION_SHAYANY",
-    #    "chat_id": -5451789283,
-    #    "msg": "Shayany x Gustavo R3"
-    #},
+    {
+        "nome": "Shayany",
+        "secret_name": "SESSION_SHAYANY",
+        "chat_id": -1003832065301,
+        "msg": "Shayany x Gustavo R3"
+    },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    #{
-    #    "nome": "Larissa",
-    #    "secret_name": "SESSION_LARISSA",
-    #    "chat_id": -5216542458,
-    #    "msg": "Larissa x Lucas Raio 7"
-    #},
+    {
+        "nome": "Larissa",
+        "secret_name": "SESSION_LARISSA",
+        "chat_id": -1002443109385,
+        "msg": "Larissa x Lucas Raio 7"
+    },
 
         #  20h20 Senha normal -1003875645355
     #{
