@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 12
-MINUTO_ALVO = 40
+MINUTO_ALVO = 58
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -157,7 +157,7 @@ CONTAS = [
     {
         "nome": "Branca",
         "secret_name": "SESSION_BRANCA",
-        "chat_id": -5391035776,
+        "chat_id": -5259905557,
         "msg": "Branca x pp r6"
     },
 
