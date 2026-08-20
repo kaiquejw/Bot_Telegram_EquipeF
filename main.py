@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 21
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,29 +33,13 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,
-        "msg": "Anny x JB R2"
-    },
-
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Branca",
-        "secret_name": "SESSION_BRANCA",
-        "chat_id": -1003552682244,
-        "msg": "Branca x pp r6"
-    },
-
         #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
-    #{
-    #    "nome": "Katia",
-    #    "secret_name": "SESSION_KATIAA",
-    #    "chat_id": -5315543837,
-    #    "msg": "Katia x Hiago r8"
-    #},
+    {
+        "nome": "Katia",
+        "secret_name": "SESSION_KATIAA",
+        "chat_id": -1002443737706,
+        "msg": "Katia x Hiago r8"
+    },
 
 ]
 
