@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 20
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,40 +33,29 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-
-
-
-        #  20h20 Senha normal -1003875645355
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -1003875645355,
-        "msg": "Mônica x jaçanã G11"
+        "nome": "Priscila",
+        "secret_name": "SESSION_PRISCILA",
+        "chat_id": -1003927816412,
+        "msg": "Priscila x Andre raio 4"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Priscila",
-    #    "secret_name": "SESSION_PRISCILA",
-    #    "chat_id": -5405596646,
-    #    "msg": "Priscila x Andre raio 4"
-    #},
+    {
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -1003927816412,
+        "msg": "Juliana/Jota/R3"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -5108358245,
-    #    "msg": "Juliana/Jota/R3"
-    #},
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    #{
-    #    "nome": "Adrielli",
-    #    "secret_name": "SESSION_ADRIELLI",
-    #    "chat_id": -5176706740,
-    #    "msg": "Adrielli x Carlos r1"
-    #},
+    {
+        "nome": "Adrielli",
+        "secret_name": "SESSION_ADRIELLI",
+        "chat_id": -1003927816412,
+        "msg": "Adrielli x Carlos r1"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     #{
