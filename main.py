@@ -33,21 +33,13 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  19h00 GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Paola",
-        "secret_name": "SESSION_PAOLA",
-        "chat_id": -1004339638597,
-        "msg": "Paola mulher Matheus raio 4 cela 5 Dobra"
-    },
-
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
     {
         "nome": "Shayany",
         "secret_name": "SESSION_SHAYANY",
         "chat_id": -1003832065301,
-        "msg": "Shayany x Gustavo R3"
+        "msg": "Shayany x Gustavo  R3"
     },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
