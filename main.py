@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 17
-MINUTO_ALVO = 3
+HORA_ALVO = 18
+MINUTO_ALVO = 35
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,20 +33,12 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-    #  19h00 GRUPO DA SENHA NORMAL- DOBRA P3 LAVINIA -1002717347777
-    {
-        "nome": "Isabelly",
-        "secret_name": "SESSION_ISABELLY",
-        "chat_id": -5231223349,
-        "msg": "Isabelly x Rene R0 C8"
-    },
-
         #  19h00 GRUPO NORMAL. -1004339638597
     {
         "nome": "Paola",
         "secret_name": "SESSION_PAOLA",
         "chat_id": -5516360409,
-        "msg": "Paola mulher Matheus raio 4 cela 5"
+        "msg": "Paola mulher Matheus raio 4 cela 5 Dobra"
     },
 
         #  19h00 P3 Anexo Normal -1002912888763
@@ -58,132 +50,76 @@ CONTAS = [
     },
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    {
-        "nome": "Shayany",
-        "secret_name": "SESSION_SHAYANY",
-        "chat_id": -5451789283,
-        "msg": "Shayany x Gustavo R3"
-    },
+    #{
+    #    "nome": "Shayany",
+    #    "secret_name": "SESSION_SHAYANY",
+    #    "chat_id": -5451789283,
+    #    "msg": "Shayany x Gustavo R3"
+    #},
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -5216542458,
-        "msg": "Larissa x Lucas Raio 7"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Anice",
-        "secret_name": "SESSION_ANICE",
-        "chat_id": -5535715396,
-        "msg": "Anice x coveiro raio 4 dobra"
-    },
+    #{
+    #    "nome": "Larissa",
+    #    "secret_name": "SESSION_LARISSA",
+    #    "chat_id": -5216542458,
+    #    "msg": "Larissa x Lucas Raio 7"
+    #},
 
         #  20h20 Senha normal -1003875645355
-    {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -4801139096,
-        "msg": "Mônica x jaçanã G11"
-    },
-
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Miriam",
-        "secret_name": "SESSION_MIRIAM",
-        "chat_id": -4992766314,
-        "msg": "Miria/adriano raio 3"
-    },
+    #{
+    #    "nome": "Monica",
+    #    "secret_name": "SESSION_MONICA",
+    #    "chat_id": -4801139096,
+    #    "msg": "Mônica x jaçanã G11"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Luciana",
-        "secret_name": "SESSION_LUCIANA",
-        "chat_id": -5263208911,
-        "msg": "Luciana x Primavera R2"
-    },
+    #{
+    #    "nome": "Priscila",
+    #    "secret_name": "SESSION_PRISCILA",
+    #    "chat_id": -5405596646,
+    #    "msg": "Priscila x Andre raio 4"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Aline",
-        "secret_name": "SESSION_ALINE",
-        "chat_id": -5340187988,
-        "msg": "Aline x capoeira r2"
-    },
+    #{
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -5108358245,
+    #    "msg": "Juliana/Jota/R3"
+    #},
 
         #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -5405596646,
-        "msg": "Priscila x Andre raio 4"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -5108358245,
-        "msg": "Juliana/Jota/R3"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Adrielli",
-        "secret_name": "SESSION_ADRIELLI",
-        "chat_id": -5176706740,
-        "msg": "Adrielli x Carlos r1"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Carol",
-        "secret_name": "SESSION_CAROL",
-        "chat_id": -5336863745,
-        "msg": "Carol x Lucas r3"
-    },
+    #{
+    #    "nome": "Adrielli",
+    #    "secret_name": "SESSION_ADRIELLI",
+    #    "chat_id": -5176706740,
+    #    "msg": "Adrielli x Carlos r1"
+    #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1004440363120,
-        "msg": "Anny x JB R2"
-    },
+    #{
+    #    "nome": "Anne",
+    #    "secret_name": "SESSION_ANNE",
+    #    "chat_id": -1004440363120,
+    #    "msg": "Anny x JB R2"
+    #},
 
         #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -5391035776,
-        "msg": "Tamires x Rodrigo R 3 (gestante)"
-    },
+    #{
+    #    "nome": "Branca",
+    #    "secret_name": "SESSION_BRANCA",
+    #    "chat_id": -5259905557,
+    #    "msg": "Branca x pp r6"
+    #},
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Branca",
-        "secret_name": "SESSION_BRANCA",
-        "chat_id": -5259905557,
-        "msg": "Branca x pp r6"
-    },
-
-        #  CONFIRMAR HORARIO GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    {
-        "nome": "Jennifer",
-        "secret_name": "SESSION_JENNIFER",
-        "chat_id": -5093907746,
-        "msg": "Jennifer x Wanderson 5x8"
-    },
-
-        #  21h00 Senha Grupo Bate Volta -1003993735474
-    {
-        "nome": "Rose",
-        "secret_name": "SESSION_ROSE",
-        "chat_id": -5227729781,
-        "msg": "Rose Lk R 3"
-    },
+        #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
+    #{
+    #    "nome": "Katia",
+    #    "secret_name": "SESSION_KATIAA",
+    #    "chat_id": -5315543837,
+    #    "msg": "Katia x Hiago r8"
+    #},
 
 ]
 
