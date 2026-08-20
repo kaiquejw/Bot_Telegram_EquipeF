@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 20
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,29 +34,15 @@ DESISTIR_APOS_S = 280
 CONTAS = [
 
 
-        #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    {
-        "nome": "Shayany",
-        "secret_name": "SESSION_SHAYANY",
-        "chat_id": -1003832065301,
-        "msg": "Shayany x Gustavo  R3"
-    },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -1002443109385,
-        "msg": "Larissa x Lucas Raio 7"
-    },
 
         #  20h20 Senha normal -1003875645355
-    #{
-    #    "nome": "Monica",
-    #    "secret_name": "SESSION_MONICA",
-    #    "chat_id": -4801139096,
-    #    "msg": "Mônica x jaçanã G11"
-    #},
+    {
+        "nome": "Monica",
+        "secret_name": "SESSION_MONICA",
+        "chat_id": -1003875645355,
+        "msg": "Mônica x jaçanã G11"
+    },
 
         #  20h30 Senha Grupo Normal -1003927816412
     #{
