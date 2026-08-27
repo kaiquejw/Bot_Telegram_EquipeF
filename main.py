@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 16
-MINUTO_ALVO = 13
+HORA_ALVO = 17
+MINUTO_ALVO = 16
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -32,6 +32,14 @@ DESISTIR_APOS_S = 280
 
 
 CONTAS = [
+
+        #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
+    {
+        "nome": "Rafa",
+        "secret_name": "SESSION_RAFA",
+        "chat_id": -5230687258,
+        "msg": "Rafaela X da morte r3"
+    },
 
         #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
     {
@@ -103,6 +111,14 @@ CONTAS = [
         "secret_name": "SESSION_MONICA",
         "chat_id": -4801139096,
         "msg": "Mônica x jaçanã G11"
+    },
+
+        #  20h30 Senha preferencial -1003714838499
+    {
+        "nome": "Ana",
+        "secret_name": "SESSION_ANA",
+        "chat_id": -5264198588,
+        "msg": "Ana x messias r6(laudo)"
     },
 
         #  20h30 Senha Grupo Normal -1003927816412
