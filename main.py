@@ -33,13 +33,7 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  19h00 Senha Normal (Dobra) 19:00 HS -1004417252531
-    {
-        "nome": "Rafa",
-        "secret_name": "SESSION_RAFA",
-        "chat_id": -5230687258,
-        "msg": "Rafaela X da morte r3"
-    },
+
 
         #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
     {
@@ -65,14 +59,6 @@ CONTAS = [
         "msg": "Maria x Ricardo R3"
     },
 
-        #  19h00 GRUPO NORMAL. -1004339638597
-    {
-        "nome": "Luciane",
-        "secret_name": "SESSION_LUCIANE",
-        "chat_id": -5323628267,
-        "msg": "Luciane x Felipe R 4 c 3"
-    },
-
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
     {
         "nome": "Shayany",
@@ -89,22 +75,6 @@ CONTAS = [
         "msg": "Aline x Leandro Raio 5"
     },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Thaina",
-        "secret_name": "SESSION_THAINA",
-        "chat_id": -1004431335449,
-        "msg": "Thaina X ratão R2"
-    },
-
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    {
-        "nome": "Aparecida",
-        "secret_name": "SESSION_APARECIDA",
-        "chat_id": -5437473133,
-        "msg": "Aparecida e Manoel x nenê 5x8"
-    },
-
         #  20h20 Senha normal -1003875645355
     {
         "nome": "Monica",
@@ -119,14 +89,6 @@ CONTAS = [
         "secret_name": "SESSION_ANA",
         "chat_id": -5264198588,
         "msg": "Ana x messias r6(laudo)"
-    },
-
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Priscila",
-        "secret_name": "SESSION_PRISCILA",
-        "chat_id": -5405596646,
-        "msg": "Priscila x Andre raio 4"
     },
 
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
