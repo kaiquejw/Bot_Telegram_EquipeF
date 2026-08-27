@@ -21,7 +21,7 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
@@ -33,45 +33,22 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    {
-        "nome": "Jennyfer",
-        "secret_name": "SESSION_JENNYFER",
-        "chat_id": -1003625815869,
-        "msg": "Jennyfer X libanês R4 C8"
-    },
-
-        #  19h00 P3 Anexo Normal -1002912888763
-    {
-        "nome": "Giovana",
-        "secret_name": "SESSION_GIOVANA",
-        "chat_id": -1002912888763,
-        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x22"
-    },
-
-        #  19h05 Grupo preferencial 19:05 horas -1004390796225
-    #{
-    #    "nome": "Joyce",
-    #    "secret_name": "SESSION_JOYCE",
-    #    "chat_id": -1004390796225,
-    #    "msg": "Maria x Ricardo R3"
-    #},
 
         #  20h00 CPP ITAI LADO IMPAR SENHA NORMAL -1003832065301
-    #{
-    #    "nome": "Shayany",
-    #    "secret_name": "SESSION_SHAYANY",
-    #    "chat_id": -1003832065301,
-    #    "msg": "Shayany x Gustavo R3"
-    #},
+    {
+        "nome": "Shayany",
+        "secret_name": "SESSION_SHAYANY",
+        "chat_id": -1003832065301,
+        "msg": "Shayany x Gustavo R3"
+    },
 
         #  20h00 Grupo senha normal -1003601357589
-    #{
-    #    "nome": "Aline",
-    #    "secret_name": "SESSION_ALINE",
-    #    "chat_id": -1003601357589,
-    #    "msg": "Aline x Leandro Raio 5"
-    #},
+    {
+        "nome": "Aline",
+        "secret_name": "SESSION_ALINE",
+        "chat_id": -1003601357589,
+        "msg": "Aline x Leandro Raio 5"
+    },
 
         #  20h20 Senha normal -1003875645355
     #{
