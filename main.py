@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 20
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,30 +33,21 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-
-        #  20h20 Senha normal -1003875645355
+        #  20h30 Senha preferencial -1003714838499
     {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -1003875645355,
-        "msg": "Mônica x jaçanã G11"
+        "nome": "Ana",
+        "secret_name": "SESSION_ANA",
+        "chat_id": -1003714838499,
+        "msg": "Ana x messias r6(laudo)"
     },
 
-        #  20h30 Senha preferencial -1003714838499
-    #{
-    #    "nome": "Ana",
-    #    "secret_name": "SESSION_ANA",
-    #    "chat_id": -1003714838499,
-    #    "msg": "Ana x messias r6(laudo)"
-    #},
-
         #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    #{
-    #    "nome": "Larissa",
-    #    "secret_name": "SESSION_LARISSA",
-    #    "chat_id": -1002459968766,
-    #    "msg": "Larissa x Lucas Raio 7"
-    #},
+    {
+        "nome": "Larissa",
+        "secret_name": "SESSION_LARISSA",
+        "chat_id": -1002459968766,
+        "msg": "Larissa x Lucas Raio 7"
+    },
 
         #  20h45 Senha Grupo Preferencial -1003552682244
     #{
