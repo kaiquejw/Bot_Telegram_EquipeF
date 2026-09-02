@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 20
-MINUTO_ALVO = 45
+HORA_ALVO = 17
+MINUTO_ALVO = 23
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,13 +33,118 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
+
+        #  19h30 Senha normal impar vila independência -1003533574600 QUINNTAAAA FEIRAAAA
     {
-        "nome": "Anne",
-        "secret_name": "SESSION_ANNE",
-        "chat_id": -1003552682244,
-        "msg": "Anny x JB R2"
+        "nome": "Thayna",
+        "secret_name": "SESSION_THAYNA",
+        "chat_id": -5188593476,
+        "msg": "Thayna R7 X C7 Marcos"
     },
+
+        #  19h00 P3 Anexo Normal -1002912888763
+    #{
+    #    "nome": "Giovana",
+    #    "secret_name": "SESSION_GIOVANA",
+    #    "chat_id": -5299568827,
+    #     "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x22"
+    #},
+
+    #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
+    # {
+    #     "nome": "Joyce",
+    #     "secret_name": "SESSION_JOYCE",
+    #     "chat_id": -5233527582,
+    #     "msg": "Maria x Ricardo R3"
+    # },
+
+    #     #  20h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
+    # {
+    #     "nome": "Jennifer",
+    #     "secret_name": "SESSION_JENNIFER",
+    #     "chat_id": -5093907746,
+    #     "msg": "Jennifer x Wanderson 5x8"
+    # },
+
+    #     #  confirmar horario GRUPO NORMAL. -1004339638597
+    # {
+    #     "nome": "Gabyzinha",
+    #     "secret_name": "SESSION_GABYZINHA",
+    #     "chat_id": -5233527582,
+    #     "msg": "Gaby x Paraguaio \n Raio7x7dobra"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Luciana",
+    #     "secret_name": "SESSION_LUCIANA",
+    #     "chat_id": -5263208911,
+    #     "msg": "Luciana x Primavera R2"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Viviane",
+    #     "secret_name": "SESSION_VIVIANE",
+    #     "chat_id": -5107863814,
+    #     "msg": "Viviane/coelho raio 3"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Priscila",
+    #     "secret_name": "SESSION_PRISCILA",
+    #     "chat_id": -5405596646,
+    #     "msg": "Priscila x Andre raio 4"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Carol",
+    #     "secret_name": "SESSION_CAROL",
+    #     "chat_id": -5336863745,
+    #     "msg": "Carol x Lucas r3"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Bruna",
+    #     "secret_name": "SESSION_BRUNA",
+    #     "chat_id": -5414483062,
+    #     "msg": "Bruna x Kaka 1"
+    # },
+
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Tatiane",
+    #     "secret_name": "SESSION_TATIANE",
+    #     "chat_id": -5117621304,
+    #     "msg": "Tatiane x Adilson raio 5"
+    # },
+
+    #     #  20h45 Senha Grupo Preferencial -1003552682244
+    # {
+    #     "nome": "Tamires",
+    #     "secret_name": "SESSION_TAMIRES",
+    #     "chat_id": -5391035776,
+    #     "msg": "Tamires x Rodrigo R 3 (gestante)"
+    # },
+
+    #     #  20h45 Senha Grupo Preferencial -1003552682244
+    # {
+    #     "nome": "Katia",
+    #     "secret_name": "SESSION_KATIA",
+    #     "chat_id": -5296287589,
+    #     "msg": "Katia pantanal r2 laudo"
+    # },
+
+    #     #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
+    # {
+    #     "nome": "Katia2",
+    #     "secret_name": "SESSION_KATIA2",
+    #     "chat_id": -5315543837,
+    #     "msg": "Katia x hiago r8"
+    # },
 
 ]
 
@@ -168,7 +273,11 @@ async def sniper(dados, alvo):
         inicio = alvo - timedelta(seconds=ANTECIPACAO_S)
         deadline = alvo + timedelta(seconds=DESISTIR_APOS_S)
         while datetime.now(TZ) < inicio:
-            await asyncio.sleep(0.01)
+            restante = (inicio - datetime.now(TZ)).total_seconds()
+            if restante > 0.5:
+                await asyncio.sleep(0.05)      # 50ms
+            else:
+                await asyncio.sleep(0.0005)    # 0.5ms
 
         janela['on'] = True
         print(f"⚔️ {nome} ATIVO (só pipeline)")
