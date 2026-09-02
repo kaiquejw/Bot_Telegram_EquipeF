@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 17
-MINUTO_ALVO = 49
+MINUTO_ALVO = 53
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -277,7 +277,7 @@ async def sniper(dados, alvo):
             if restante > 0.5:
                 await asyncio.sleep(0.05)      # 50ms
             else:
-                await asyncio.sleep(0.0002)    # 0.5ms
+                await asyncio.sleep(0.0005)    # 0.5ms
 
         janela['on'] = True
         print(f"⚔️ {nome} ATIVO (só pipeline)")
