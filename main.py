@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,37 +34,29 @@ DESISTIR_APOS_S = 280
 CONTAS = [
 
 
-         #  20h00 Grupo de senha CPP Pacaembu -1002394231597
+         #  20h30 Senha Grupo Normal -1003927816412
      {
-        "nome": "Juliana",
-        "secret_name": "SESSION_JULIANA",
-        "chat_id": -1002394231597,
-         "msg": "Juliana x Jota ala? Dobra"
+         "nome": "Viviane",
+         "secret_name": "SESSION_VIVIANE",
+         "chat_id": -1003927816412,
+         "msg": "Viviane/coelho raio 3"
      },
 
-    #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Viviane",
-    #     "secret_name": "SESSION_VIVIANE",
-    #     "chat_id": -1003927816412,
-    #     "msg": "Viviane/coelho raio 3"
-    # },
+         #  20h30 Senha Grupo Normal -1003927816412
+     {
+         "nome": "Priscila",
+         "secret_name": "SESSION_PRISCILA",
+         "chat_id": -1003927816412,
+         "msg": "Priscila x Andre raio 4"
+     },
 
-    #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Priscila",
-    #     "secret_name": "SESSION_PRISCILA",
-    #     "chat_id": -1003927816412,
-    #     "msg": "Priscila x Andre raio 4"
-    # },
-
-    #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Bruna",
-    #     "secret_name": "SESSION_BRUNA",
-    #     "chat_id": -1003927816412,
-    #     "msg": "Bruna x Kaka 1"
-    # },
+         #  20h30 Senha Grupo Normal -1003927816412
+     {
+         "nome": "Bruna",
+         "secret_name": "SESSION_BRUNA",
+         "chat_id": -1003927816412,
+         "msg": "Bruna x Kaka 1"
+     },
 
     #     #  20h45 Senha Grupo Preferencial -1003552682244
     # {
