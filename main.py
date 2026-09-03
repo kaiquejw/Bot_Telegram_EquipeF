@@ -33,9 +33,6 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-
-
-
          #  20h45 Senha Grupo Preferencial -1003552682244
      {
          "nome": "Katia",
@@ -45,12 +42,12 @@ CONTAS = [
      },
 
          #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
-     {
-         "nome": "Katia2",
-         "secret_name": "SESSION_KATIA2",
-         "chat_id": -1002443737706,
-         "msg": "Katia x hiago r8"
-     },
+    # {
+    #     "nome": "Katia2",
+    #     "secret_name": "SESSION_KATIA2",
+    #     "chat_id": -1002443737706,
+    #     "msg": "Katia x hiago r8"
+    # },
 
 ]
 
