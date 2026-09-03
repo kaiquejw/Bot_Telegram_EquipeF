@@ -21,41 +21,40 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 30
+HORA_ALVO = 11
+MINUTO_ALVO = 22
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.030
+LAUNCH_INTERVAL = 0.25
 DESISTIR_APOS_S = 280
 
 
 
 CONTAS = [
 
-
-        #  19h30 Senha normal impar vila independência -1003533574600 QUINNTAAAA FEIRAAAA
-    {
-        "nome": "Thayna",
-        "secret_name": "SESSION_THAYNA",
-        "chat_id": -1003533574600,
-        "msg": "Thayna R7 X C7 Marcos"
-    },
-
-        #  19h00 P3 Anexo Normal -1002912888763
-    #{
-    #    "nome": "Giovana",
-    #    "secret_name": "SESSION_GIOVANA",
-    #    "chat_id": -5299568827,
-    #     "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x22"
-    #},
-
-    #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
+    #     #  19h00 P3 Anexo Normal -1002912888763
     # {
-    #     "nome": "Joyce",
-    #     "secret_name": "SESSION_JOYCE",
-    #     "chat_id": -5233527582,
-    #     "msg": "Maria x Ricardo R3"
+    #     "nome": "Giovana",
+    #     "secret_name": "SESSION_GIOVANA",
+    #     "chat_id": -5299568827,
+    #      "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x22"
+    # },
+
+    # #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
+    #  {
+    #      "nome": "Joyce",
+    #      "secret_name": "SESSION_JOYCE",
+    #      "chat_id": -5233527582,
+    #      "msg": "Maria x Ricardo R3"
+    #  },
+
+    #     #  20h00 Grupo de senha CPP Pacaembu -1002394231597
+    # {
+    #    "nome": "Juliana",
+    #    "secret_name": "SESSION_JULIANA",
+    #    "chat_id": -5108358245,
+    #     "msg": "Juliana x Jota ala? Dobra"
     # },
 
     #     #  20h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
@@ -66,7 +65,15 @@ CONTAS = [
     #     "msg": "Jennifer x Wanderson 5x8"
     # },
 
-    #     #  confirmar horario GRUPO NORMAL. -1004339638597
+        #  20h00 GRUPO NORMAL. -1004339638597
+    {
+        "nome": "Luciane",
+        "secret_name": "SESSION_LUCIANE",
+        "chat_id": -5323628267,
+        "msg": "Luciane x Felipe R 4 c 3"
+    },
+
+    #     #  20h00 confirmar GRUPO NORMAL. -1004339638597
     # {
     #     "nome": "Gabyzinha",
     #     "secret_name": "SESSION_GABYZINHA",
