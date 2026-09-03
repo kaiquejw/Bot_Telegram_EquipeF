@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 19
-MINUTO_ALVO = 5
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -35,11 +35,19 @@ CONTAS = [
 
 
     #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
+    # {
+    #     "nome": "Joyce",
+    #     "secret_name": "SESSION_JOYCE",
+    #     "chat_id": -1004390796225,
+    #     "msg": "Maria x Ricardo R3"
+    # },
+
+    #     #  19h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
      {
-         "nome": "Joyce",
-         "secret_name": "SESSION_JOYCE",
-         "chat_id": -1004390796225,
-         "msg": "Maria x Ricardo R3"
+         "nome": "Jennifer",
+         "secret_name": "SESSION_JENNIFER",
+         "chat_id": -1003625815869,
+         "msg": "Jennifer x Wanderson 5x8"
      },
 
     #     #  20h00 Grupo de senha CPP Pacaembu -1002394231597
@@ -48,14 +56,6 @@ CONTAS = [
     #    "secret_name": "SESSION_JULIANA",
     #    "chat_id": -5108358245,
     #     "msg": "Juliana x Jota ala? Dobra"
-    # },
-
-    #     #  20h00 GRUPO NORMAL SENHA LAVINIA 2 -1003625815869
-    # {
-    #     "nome": "Jennifer",
-    #     "secret_name": "SESSION_JENNIFER",
-    #     "chat_id": -5093907746,
-    #     "msg": "Jennifer x Wanderson 5x8"
     # },
 
     #     #  20h30 Senha Grupo Normal -1003927816412
