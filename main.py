@@ -21,8 +21,8 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 5
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -34,21 +34,13 @@ DESISTIR_APOS_S = 280
 CONTAS = [
 
 
-    #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
+         #  20h00 Grupo de senha CPP Pacaembu -1002394231597
      {
-         "nome": "Joyce",
-         "secret_name": "SESSION_JOYCE",
-         "chat_id": -1004390796225,
-         "msg": "Maria x Ricardo R3"
+        "nome": "Juliana",
+        "secret_name": "SESSION_JULIANA",
+        "chat_id": -1002394231597,
+         "msg": "Juliana x Jota ala? Dobra"
      },
-
-    #     #  20h00 Grupo de senha CPP Pacaembu -1002394231597
-    # {
-    #    "nome": "Juliana",
-    #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -1002394231597,
-    #     "msg": "Juliana x Jota ala? Dobra"
-    # },
 
     #     #  20h30 Senha Grupo Normal -1003927816412
     # {
