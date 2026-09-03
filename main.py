@@ -54,7 +54,7 @@ CONTAS = [
     # {
     #    "nome": "Juliana",
     #    "secret_name": "SESSION_JULIANA",
-    #    "chat_id": -5108358245,
+    #    "chat_id": -1002394231597,
     #     "msg": "Juliana x Jota ala? Dobra"
     # },
 
@@ -62,7 +62,7 @@ CONTAS = [
     # {
     #     "nome": "Viviane",
     #     "secret_name": "SESSION_VIVIANE",
-    #     "chat_id": -5107863814,
+    #     "chat_id": -1003927816412,
     #     "msg": "Viviane/coelho raio 3"
     # },
 
@@ -70,7 +70,7 @@ CONTAS = [
     # {
     #     "nome": "Priscila",
     #     "secret_name": "SESSION_PRISCILA",
-    #     "chat_id": -5405596646,
+    #     "chat_id": -1003927816412,
     #     "msg": "Priscila x Andre raio 4"
     # },
 
@@ -78,7 +78,7 @@ CONTAS = [
     # {
     #     "nome": "Bruna",
     #     "secret_name": "SESSION_BRUNA",
-    #     "chat_id": -5414483062,
+    #     "chat_id": -1003927816412,
     #     "msg": "Bruna x Kaka 1"
     # },
 
@@ -86,7 +86,7 @@ CONTAS = [
     # {
     #     "nome": "Katia",
     #     "secret_name": "SESSION_KATIA",
-    #     "chat_id": -5296287589,
+    #     "chat_id": -1003552682244,
     #     "msg": "Katia pantanal r2 laudo"
     # },
 
@@ -94,7 +94,7 @@ CONTAS = [
     # {
     #     "nome": "Katia2",
     #     "secret_name": "SESSION_KATIA2",
-    #     "chat_id": -5315543837,
+    #     "chat_id": -1002443737706,
     #     "msg": "Katia x hiago r8"
     # },
 
