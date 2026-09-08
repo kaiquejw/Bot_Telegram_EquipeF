@@ -21,7 +21,7 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 21
+HORA_ALVO = 19
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
@@ -33,12 +33,12 @@ DESISTIR_APOS_S = 280
 
 CONTAS = [
 
-         #  21h00 Grupo da senha BATE VOLTA Flórida Paulista -1002443737706
+         #  20h30 SENHA Preferencial P1 (Novo ) -1003927390313
      {
-         "nome": "Katia2",
-         "secret_name": "SESSION_KATIA2",
-         "chat_id": -1002443737706,
-         "msg": "Katia x hiago r8"
+         "nome": "Sara",
+         "secret_name": "SESSION_SARA",
+         "chat_id": -5215567369,
+         "msg": "Sara esposa demorisval raio 1 cela 27 longa distância"
      },
 
 ]
