@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 30
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,37 +33,21 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h30 Senha Grupo Normal -1003927816412
-     {
-        "nome": "Jane",
-        "secret_name": "SESSION_JANE",
-        "chat_id": -1003927816412,
-        "msg": "Jane/Soberano Raio 3"
-     },
-
-        #  20h30 Senha Grupo Normal -1003927816412
+        #  20h45 Senha Grupo Preferencial -1003552682244
     {
-        "nome": "Andreia",
-        "secret_name": "SESSION_ANDREIA",
-        "chat_id": -1003927816412,
-        "msg": "Andreia X Fagner Raio 1"
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1003552682244,
+        "msg": "Anny x JB R2"
     },
 
-    #     #  20h45 Senha Grupo Preferencial -1003552682244
-    # {
-    #     "nome": "Anne",
-    #     "secret_name": "SESSION_ANNE",
-    #     "chat_id": -1003552682244,
-    #     "msg": "Anny x JB R2"
-    # },
-
-    #     #  20h45 Senha Grupo Preferencial -1003552682244
-    # {
-    #     "nome": "Jake",
-    #     "secret_name": "SESSION_JAKE",
-    #     "chat_id": -1003552682244,
-    #     "msg": "Jakeline x Daniel raio 3"
-    # },
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    {
+        "nome": "Jake",
+        "secret_name": "SESSION_JAKE",
+        "chat_id": -1003552682244,
+        "msg": "Jakeline x Daniel raio 3"
+    },
 
 ]
 
