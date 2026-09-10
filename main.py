@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 19
-MINUTO_ALVO = 0
+MINUTO_ALVO = 5
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -33,22 +33,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-
-        #  19h00 P3 Anexo Normal -1002912888763
+        #  19h05 Grupo preferencial 19:05 horas -1004390796225
     {
-        "nome": "Giovana",
-        "secret_name": "SESSION_GIOVANA",
-        "chat_id": -1002912888763,
-        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2"
+        "nome": "Joyce",
+        "secret_name": "SESSION_JOYCE",
+        "chat_id": -1004390796225,
+        "msg": "Maria x Ricardo R3"
     },
-
-    #     #  19h05 Grupo preferencial 19:05 horas -1004390796225
-    # {
-    #     "nome": "Joyce",
-    #     "secret_name": "SESSION_JOYCE",
-    #     "chat_id": -1004390796225,
-    #     "msg": "Maria x Ricardo R3"
-    # },
 
     #     #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     # {
@@ -87,7 +78,7 @@ CONTAS = [
     #     "nome": "Andreia",
     #     "secret_name": "SESSION_ANDREIA",
     #     "chat_id": -1003927816412,
-    #     "msg": "Andreia/Giovanna X Fagner Raio 1"
+    #     "msg": "Andreia X Fagner Raio 1"
     # },
 
     #     #  20h45 Senha Grupo Preferencial -1003552682244
