@@ -21,49 +21,41 @@ API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TZ = ZoneInfo("America/Sao_Paulo")  
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 5
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.040
+LAUNCH_INTERVAL = 0.035
 DESISTIR_APOS_S = 120
 
 
 
 CONTAS = [
 
-        #  19h05 Grupo preferencial 19:05 horas -1004390796225
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
-        "nome": "Joyce",
-        "secret_name": "SESSION_JOYCE",
-        "chat_id": -1004390796225,
-        "msg": "Maria x Ricardo R3"
+        "nome": "Kerollayne",
+        "secret_name": "SESSION_KEROLLAYNE",
+        "chat_id": -1002443109385,
+        "msg": "kerollayne x mt r5"
     },
 
-    #     #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    # {
-    #     "nome": "Kerollayne",
-    #     "secret_name": "SESSION_KEROLLAYNE",
-    #     "chat_id": -1002443109385,
-    #     "msg": "kerollayne x mt r5"
-    # },
+        #  20h00 GRUPO NORMAL. -1004339638597
+    {
+        "nome": "Luciane",
+        "secret_name": "SESSION_LUCIANE",
+        "chat_id": -1004339638597,
+        "msg": "Felipe X Luciane R 4 C 3"
+    },
 
-    #     #  20h00 GRUPO NORMAL. -1004339638597
-    # {
-    #     "nome": "Luciane",
-    #     "secret_name": "SESSION_LUCIANE",
-    #     "chat_id": -1004339638597,
-    #     "msg": "Felipe X Luciane R 4 C 3"
-    # },
-
-    #     #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
-    # {
-    #     "nome": "Joice",
-    #     "secret_name": "SESSION_JOICE",
-    #     "chat_id": -5462106210,
-    #     "msg": "Joyce /Guilherme R7 C5"
-    # },
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+    {
+        "nome": "Joice",
+        "secret_name": "SESSION_JOICE",
+        "chat_id": -5462106210,
+        "msg": "Joyce /Guilherme R7 C5"
+    },
 
     #     #  20h30 Senha Grupo Normal -1003927816412
     #  {
@@ -228,7 +220,7 @@ async def sniper(dados, alvo):
             if restante > 0.5:
                 await asyncio.sleep(0.05)      # 50ms
             else:
-                await asyncio.sleep(0.0005)    # 0.5ms
+                await asyncio.sleep(0.010)    # 0.5ms
 
         janela['on'] = True
         print(f"⚔️ {nome} ATIVO (só pipeline)")
