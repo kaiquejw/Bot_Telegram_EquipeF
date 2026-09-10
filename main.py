@@ -46,7 +46,7 @@ CONTAS = [
         "nome": "Luciane",
         "secret_name": "SESSION_LUCIANE",
         "chat_id": -1004339638597,
-        "msg": "Felipe X Luciane R 4 C 3"
+        "msg": "Luciane X Felipe R 4 C 3"
     },
 
         #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
