@@ -31,12 +31,19 @@ DESISTIR_APOS_S = 120
 
 
 CONTAS = [
-    #  19h00 P3 Anexo Normal -1002912888763
+    #  20h45 Senha Grupo Preferencial -1003552682244
+    {
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1003552682244,
+        "msg": "Anny x JB R2",
+    },
+    #  20h45 Senha Grupo Preferencial -1003552682244
     {
         "nome": "Jake",
         "secret_name": "SESSION_JAKE",
-        "chat_id": -5186073583,
-        "msg": "Teste jak",
+        "chat_id": -1003552682244,
+        "msg": "Jakeline x Daniel raio 3",
     },
 ]
 
@@ -180,7 +187,7 @@ async def sniper(dados, alvo):
             if restante > 0.5:
                 await asyncio.sleep(0.05)  # 50ms
             else:
-                await asyncio.sleep(0.0005)  # 0.5ms
+                await asyncio.sleep(0.010)  # 0.5ms
 
         janela["on"] = True
         print(f"⚔️ {nome} ATIVO (só pipeline)")
