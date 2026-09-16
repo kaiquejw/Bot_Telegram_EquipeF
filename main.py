@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 17
-MINUTO_ALVO = 3
+MINUTO_ALVO = 25
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,7 +36,7 @@ CONTAS = [
     {
         "nome": "Kaique",
         "secret_name": "SESSION_KAIQUE",
-        "chat_id": -5186073583,   
+        "chat_id": -1004369874195,   
         "msg": "PRIMEIRO TESTE DE VELOCIDADE",
     },
 ]
