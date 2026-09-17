@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 10
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -32,37 +32,21 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h00 Grupo de senha CPP Pacaembu -1002394231597 
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Lais",
-        "secret_name": "SESSION_LAIS",
-        "chat_id": -1002394231597,
-        "msg": "Laís x jogador ala 1 a dobra",
+        "nome": "Maura",
+        "secret_name": "SESSION_MAURA",
+        "chat_id": -5296504532,
+        "msg": "Maura x nenê raio 3",
     },
 
-        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
+            #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Rose",
-        "secret_name": "SESSION_ROSE",
-        "chat_id": -1002443109385,
-        "msg": "Rose e Núbia x Tatá R8",
+        "nome": "Michele",
+        "secret_name": "SESSION_MICHELE",
+        "chat_id": -1003944673656,
+        "msg": "Michele x Paquistao raio 3",
     },
-
-    #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Maura",
-    #     "secret_name": "SESSION_MAURA",
-    #     "chat_id": -5296504532,
-    #     "msg": "Maura x nenê raio 3",
-    # },
-
-        #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Michele",
-    #     "secret_name": "SESSION_MICHELE",
-    #     "chat_id": -1003927816412,
-    #     "msg": "Michele x Paquistao raio 3",
-    # },
 
     #     #  20h45 Senha Grupo Preferencial -1003552682244
     # {
