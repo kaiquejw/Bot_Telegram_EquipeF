@@ -21,32 +21,40 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 16
-MINUTO_ALVO = 50
+HORA_ALVO = 19
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.035
+LAUNCH_INTERVAL = 0.040
 DESISTIR_APOS_S = 120
 
 
 CONTAS = [
 
+        #  19h00 P3 Anexo Normal -1002912888763
+    {
+        "nome": "Jeniffer",
+        "secret_name": "SESSION_JENIFFER",
+        "chat_id": -1002912888763,   
+        "msg": "Jeniffer x Richard 3x5 \n Crislaine x Richard 3x5",
+    },
 
-        #  20h     
+        #  19h00 P3 Anexo Normal -1002912888763
     {
-        "nome": "Kaique",
-        "secret_name": "SESSION_KAIQUE",
-        "chat_id": -1004369874195,   
-        "msg": "PRIMEIRO TESTE DE VELOCIDADE",
+        "nome": "Giovana",
+        "secret_name": "SESSION_GIOVANA",
+        "chat_id": -1002912888763,   
+        "msg": "Bruna x João Victor 4x2 \n  Giovana x João Victor 4x2",
     },
-        #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
-    {
-        "nome": "Larissa",
-        "secret_name": "SESSION_LARISSA",
-        "chat_id": -5216542458,   
-        "msg": "Larissa x Lucas Raio 7",
-    },
+
+    #     #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+    # {
+    #     "nome": "Larissa",
+    #     "secret_name": "SESSION_LARISSA",
+    #     "chat_id": -5216542458,   
+    #     "msg": "Larissa x Lucas Raio 7",
+    # },
 
 ]
 
