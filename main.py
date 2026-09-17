@@ -21,8 +21,8 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 19
-MINUTO_ALVO = 35
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,7 +36,7 @@ CONTAS = [
     {
         "nome": "Lais",
         "secret_name": "SESSION_LAIS",
-        "chat_id": -1004317445342,
+        "chat_id": -1002394231597,
         "msg": "Laís x jogador ala 1 a dobra",
     },
 
@@ -44,7 +44,7 @@ CONTAS = [
     {
         "nome": "Rose",
         "secret_name": "SESSION_ROSE",
-        "chat_id": -5575370976,
+        "chat_id": -1002443109385,
         "msg": "Rose e Núbia x Tatá R8",
     },
 
