@@ -22,38 +22,62 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 19
-MINUTO_ALVO = 0
+MINUTO_ALVO = 25
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.040
+LAUNCH_INTERVAL = 0.035
 DESISTIR_APOS_S = 120
 
 
 CONTAS = [
 
-        #  19h00 P3 Anexo Normal -1002912888763
+        #  20h00 Grupo de senha CPP Pacaembu -1002394231597 
     {
-        "nome": "Jeniffer",
-        "secret_name": "SESSION_JENIFFER",
-        "chat_id": -1002912888763,   
-        "msg": "Jeniffer x Richard 3x5 \n Crislaine x Richard 3x5",
+        "nome": "Lais",
+        "secret_name": "SESSION_LAIS",
+        "chat_id": -1004317445342,
+        "msg": "Laís x jogador ala 1 a dobra",
     },
 
-        #  19h00 P3 Anexo Normal -1002912888763
+        #  20h00 Grupo da senha DOBRA Flórida Paulista -1002443109385
     {
-        "nome": "Giovana",
-        "secret_name": "SESSION_GIOVANA",
-        "chat_id": -1002912888763,   
-        "msg": "Bruna x João Victor 4x2 \n  Giovana x João Victor 4x2",
+        "nome": "Rose",
+        "secret_name": "SESSION_ROSE",
+        "chat_id": -5575370976,
+        "msg": "Rose e Núbia x Tatá R8",
     },
 
-    #     #  20h30 Grupo da senha PREFERENCIAL Flórida Paulista -1002459968766
+    #     #  20h30 Senha Grupo Normal -1003927816412
     # {
-    #     "nome": "Larissa",
-    #     "secret_name": "SESSION_LARISSA",
-    #     "chat_id": -5216542458,   
-    #     "msg": "Larissa x Lucas Raio 7",
+    #     "nome": "Maura",
+    #     "secret_name": "SESSION_MAURA",
+    #     "chat_id": -5296504532,
+    #     "msg": "Maura x nenê raio 3",
+    # },
+
+        #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Michele",
+    #     "secret_name": "SESSION_MICHELE",
+    #     "chat_id": -1003927816412,
+    #     "msg": "Michele x Paquistao raio 3",
+    # },
+
+    #     #  20h45 Senha Grupo Preferencial -1003552682244
+    # {
+    #     "nome": "Tamires",
+    #     "secret_name": "SESSION_TAMIRES",
+    #     "chat_id": -1004367518439,
+    #     "msg": "Tamires x Rodrigo R 3 (gestante)",
+    # },
+
+    #     #  21h00 Senha Grupo Bate Volta -1003993735474
+    # {
+    #     "nome": "Katia",
+    #     "secret_name": "SESSION_KATIA",
+    #     "chat_id": -5296287589,
+    #     "msg": "Katia pantanal r2 laudo",
     # },
 
 ]
