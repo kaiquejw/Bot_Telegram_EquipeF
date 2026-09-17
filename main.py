@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 10
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,7 +36,7 @@ CONTAS = [
     {
         "nome": "Maura",
         "secret_name": "SESSION_MAURA",
-        "chat_id": -5296504532,
+        "chat_id": -1003927816412,
         "msg": "Maura x nenê raio 3",
     },
 
@@ -44,7 +44,7 @@ CONTAS = [
     {
         "nome": "Michele",
         "secret_name": "SESSION_MICHELE",
-        "chat_id": -1003944673656,
+        "chat_id": -1003927816412,
         "msg": "Michele x Paquistao raio 3",
     },
 
