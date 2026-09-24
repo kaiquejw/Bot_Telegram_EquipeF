@@ -21,8 +21,8 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 21
-MINUTO_ALVO = 0
+HORA_ALVO = 17
+MINUTO_ALVO = 25
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
