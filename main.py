@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 0
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -32,27 +32,19 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h00 Grupo normal Mira 2 -1004355682842
+        #  20h30 Senha Grupo Normal -1003927816412 
     {
-        "nome": "Karoline",
-        "secret_name": "SESSION_KAROLINE",
-        "chat_id": -1004355682842,
-        "msg": "Karoline x Da guerra R4",
+        "nome": "Viviane",
+        "secret_name": "SESSION_VIVIANE",
+        "chat_id": -1003927816412,
+        "msg": "Viviane/coelho raio 3",
     },
-
-    #     #  20h30 Senha Grupo Normal -1003927816412 
-    # {
-    #     "nome": "Viviane",
-    #     "secret_name": "SESSION_VIVIANE",
-    #     "chat_id": -5107863814,
-    #     "msg": "Viviane/coelho raio 3",
-    # },
 
     #     #  20h45 Senha Grupo Preferencial -1003552682244
     # {
     #     "nome": "Anne",
     #     "secret_name": "SESSION_ANNE",
-    #     "chat_id": -1004440363120,
+    #     "chat_id": -1003552682244,
     #     "msg": "Anny x JB R2",
     # },
 
@@ -60,7 +52,7 @@ CONTAS = [
     # {
     #     "nome": "Katia",
     #     "secret_name": "SESSION_KATIA",
-    #     "chat_id": -5296287589,
+    #     "chat_id": -1003993735474,
     #     "msg": "Katia pantanal r2 laudo",
     # },
 
