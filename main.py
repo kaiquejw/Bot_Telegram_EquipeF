@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 30
+MINUTO_ALVO = 45
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -32,21 +32,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h30 Senha Grupo Normal -1003927816412 
+        #  20h45 Senha Grupo Preferencial -1003552682244
     {
-        "nome": "Viviane",
-        "secret_name": "SESSION_VIVIANE",
-        "chat_id": -1003927816412,
-        "msg": "Viviane/coelho raio 3",
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1003552682244,
+        "msg": "Anny x JB R2",
     },
-
-    #     #  20h45 Senha Grupo Preferencial -1003552682244
-    # {
-    #     "nome": "Anne",
-    #     "secret_name": "SESSION_ANNE",
-    #     "chat_id": -1003552682244,
-    #     "msg": "Anny x JB R2",
-    # },
 
     #     #  21h00 Senha Grupo Bate Volta -1003993735474
     # {
