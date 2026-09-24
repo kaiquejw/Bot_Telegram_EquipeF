@@ -32,11 +32,43 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
+        #  19H00 P3 Anexo Normal -1002912888763
+    {
+        "nome": "GiovanaF",
+        "secret_name": "SESSION_GIOVANAF",
+        "chat_id": -1004297939409,
+        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2",
+    },
+
+        #  20h00 Grupo normal Mira 2 -1004355682842
+    {
+        "nome": "Karoline",
+        "secret_name": "SESSION_KAROLINE",
+        "chat_id": -5274565803,
+        "msg": "Karoline x Da guerra R4 - criança",
+    },
+
+        #  20h30 Senha Grupo Normal -1003927816412 
+    {
+        "nome": "Viviane",
+        "secret_name": "SESSION_VIVIANE",
+        "chat_id": -5107863814,
+        "msg": "Viviane/coelho raio 3",
+    },
+
+        #  20h45 Senha Grupo Preferencial -1003552682244
+    {
+        "nome": "Anne",
+        "secret_name": "SESSION_ANNE",
+        "chat_id": -1004440363120,
+        "msg": "Anny x JB R2",
+    },
+
         #  21h00 Senha Grupo Bate Volta -1003993735474
     {
         "nome": "Katia",
         "secret_name": "SESSION_KATIA",
-        "chat_id": -1003993735474,
+        "chat_id": -5296287589,
         "msg": "Katia pantanal r2 laudo",
     },
 
