@@ -21,32 +21,24 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 19
+HORA_ALVO = 20
 MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.04
+LAUNCH_INTERVAL = 0.035
 DESISTIR_APOS_S = 120
 
 
 CONTAS = [
 
-        #  19H00 P3 Anexo Normal -1002912888763
+        #  20h00 Grupo normal Mira 2 -1004355682842
     {
-        "nome": "GiovanaF",
-        "secret_name": "SESSION_GIOVANAF",
-        "chat_id": -1002912888763,
-        "msg": "Bruna x João Victor 4x2 \n Giovana x João Victor 4x2",
+        "nome": "Karoline",
+        "secret_name": "SESSION_KAROLINE",
+        "chat_id": -1004355682842,
+        "msg": "Karoline x Da guerra R4",
     },
-
-    #     #  20h00 Grupo normal Mira 2 -1004355682842
-    # {
-    #     "nome": "Karoline",
-    #     "secret_name": "SESSION_KAROLINE",
-    #     "chat_id": -5274565803,
-    #     "msg": "Karoline x Da guerra R4",
-    # },
 
     #     #  20h30 Senha Grupo Normal -1003927816412 
     # {
