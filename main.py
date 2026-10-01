@@ -21,12 +21,12 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 14
-MINUTO_ALVO = 10
+HORA_ALVO = 19
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
-LAUNCH_INTERVAL = 0.035
+LAUNCH_INTERVAL = 0.04
 DESISTIR_APOS_S = 120
 
 
@@ -36,25 +36,25 @@ CONTAS = [
     {
         "nome": "Jeniffer",
         "secret_name": "SESSION_JENIFFER",
-        "chat_id": -5465700468,
-        "msg": "Jeniffer x Richard 3x5 P3 \n Crislaine x Richard 3x5 P3",
+        "chat_id": -1004433687756,
+        "msg": "Jeniffer x Richard 3x5 P3 \n Vera x Richard 3x5 P3",
     },
 
-        #  20h20 Grupo normal -1004315421373
-    {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -4801139096,
-        "msg": "Mônica x jaçanã G11",
-    },
+    #     #  20h20 Grupo normal -1004315421373
+    # {
+    #     "nome": "Monica",
+    #     "secret_name": "SESSION_MONICA",
+    #     "chat_id": -4801139096,
+    #     "msg": "Mônica x jaçanã G11",
+    # },
 
-        #  21h00 Senha Grupo Bate Volta -1003993735474
-    {
-        "nome": "Katia",
-        "secret_name": "SESSION_KATIA",
-        "chat_id": -5296287589,
-        "msg": "Katia pantanal r2 laudo",
-    }
+    #     #  21h00 Senha Grupo Bate Volta -1003993735474
+    # {
+    #     "nome": "Katia",
+    #     "secret_name": "SESSION_KATIA",
+    #     "chat_id": -5296287589,
+    #     "msg": "Katia pantanal r2 laudo",
+    # }
 
 ]
 
