@@ -38,7 +38,7 @@ CONTAS = [
         "secret_name": "SESSION_JENIFFER",
         "chat_id": -5465700468,
         "msg": "Jeniffer x Richard 3x5 P3 \n Crislaine x Richard 3x5 P3",
-    }
+    },
 
         #  20h20 Grupo normal -1004315421373
     {
@@ -46,7 +46,7 @@ CONTAS = [
         "secret_name": "SESSION_MONICA",
         "chat_id": -4801139096,
         "msg": "Mônica x jaçanã G11",
-    }
+    },
 
         #  21h00 Senha Grupo Bate Volta -1003993735474
     {
