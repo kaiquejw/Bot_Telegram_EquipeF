@@ -21,8 +21,8 @@ API_HASH = os.environ.get("TELEGRAM_API_HASH")
 TZ = ZoneInfo("America/Sao_Paulo")
 
 
-HORA_ALVO = 18
-MINUTO_ALVO = 15
+HORA_ALVO = 20
+MINUTO_ALVO = 0
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -36,41 +36,41 @@ CONTAS = [
     {
         "nome": "Kerollayne",
         "secret_name": "SESSION_KEROLLAYNE",
-        "chat_id": -5469784112,
+        "chat_id": -1002443737706,
         "msg": "kerollayne x mt r5",
     },
 
-        #  20h20 Grupo normal -1004315421373
-    {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -4801139096,
-        "msg": "Mônica x jaçanã G11",
-    },
+    #     #  20h20 Grupo normal -1004315421373
+    # {
+    #     "nome": "Monica",
+    #     "secret_name": "SESSION_MONICA",
+    #     "chat_id": -1004315421373,
+    #     "msg": "Mônica x jaçanã G11",
+    # },
 
-        #  20h30 Senha Grupo Normal -1003927816412
-    {
-        "nome": "Maura",
-        "secret_name": "SESSION_MAURA",
-        "chat_id": -5296504532,
-        "msg": "Maura x nenê raio 3",
-    },
+    #     #  20h30 Senha Grupo Normal -1003927816412
+    # {
+    #     "nome": "Maura",
+    #     "secret_name": "SESSION_MAURA",
+    #     "chat_id": -1003927816412,
+    #     "msg": "Maura x nenê raio 3",
+    # },
 
-        #  20h45 Senha Grupo Preferencial -1003552682244
-    {
-        "nome": "Tamires",
-        "secret_name": "SESSION_TAMIRES",
-        "chat_id": -1004367518439,
-        "msg": "Tamires x Rodrigo R 3 (gestante)",
-    },
+    #     #  20h45 Senha Grupo Preferencial -1003552682244
+    # {
+    #     "nome": "Tamires",
+    #     "secret_name": "SESSION_TAMIRES",
+    #     "chat_id": -1003552682244,
+    #     "msg": "Tamires x Rodrigo R 3 (gestante)",
+    # },
 
-        #  21h00 Senha Grupo Bate Volta -1003993735474
-    {
-        "nome": "Katia",
-        "secret_name": "SESSION_KATIA",
-        "chat_id": -5296287589,
-        "msg": "Katia pantanal r2 laudo",
-    },
+    #     #  21h00 Senha Grupo Bate Volta -1003993735474
+    # {
+    #     "nome": "Katia",
+    #     "secret_name": "SESSION_KATIA",
+    #     "chat_id": -1003993735474,
+    #     "msg": "Katia pantanal r2 laudo",
+    # },
 
 ]
 
