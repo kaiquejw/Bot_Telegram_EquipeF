@@ -22,7 +22,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 
 
 HORA_ALVO = 20
-MINUTO_ALVO = 20
+MINUTO_ALVO = 30
 SEGUNDO_ALVO = 0
 
 ANTECIPACAO_S = 0.0
@@ -32,21 +32,13 @@ DESISTIR_APOS_S = 120
 
 CONTAS = [
 
-        #  20h20 Grupo normal -1004315421373
+        #  20h30 Senha Grupo Normal -1003927816412
     {
-        "nome": "Monica",
-        "secret_name": "SESSION_MONICA",
-        "chat_id": -1004315421373,
-        "msg": "Mônica x jaçanã G11",
+        "nome": "Maura",
+        "secret_name": "SESSION_MAURA",
+        "chat_id": -1003927816412,
+        "msg": "Maura x nenê raio 3",
     },
-
-    #     #  20h30 Senha Grupo Normal -1003927816412
-    # {
-    #     "nome": "Maura",
-    #     "secret_name": "SESSION_MAURA",
-    #     "chat_id": -1003927816412,
-    #     "msg": "Maura x nenê raio 3",
-    # },
 
     #     #  20h45 Senha Grupo Preferencial -1003552682244
     # {
